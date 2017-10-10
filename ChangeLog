@@ -1,3 +1,8 @@
+2017-10-10  Jürgen Reuter  <http://www.soundpaint.org/>
+
+	* *: Put source code onto GitHub.  Updated INSTALL file
+	accordingly.
+
 2008-01-04  Jürgen Reuter  <http://www.soundpaint.org/>
 
 	* src/java/org/soundpaint/syngraph/MenuBar.java,
@@ -177,7 +182,7 @@
 
 	* src/core/de/uka/ipd/syngraph/FontDialog.java: Removed redundant
 	"apply" button.  Renamed "close" button into "approve".
-	
+
 	* src/core/de/uka/ipd/syngraph/DocumentChangeListener.java,
 	src/core/de/uka/ipd/syngraph/DocumentChangeAdapter.java,
 	src/core/de/uka/ipd/syngraph/ObjectPropertiesDialog.java,
@@ -417,11 +422,6 @@
 
 	* build.xml: Cleanup.
 
-#
-# $Author: reuter $
-# $Date: 2008-01-04 04:19:55 +0100 (Fri, 04 Jan 2008) $
-# $Id: ChangeLog 313 2008-01-04 03:19:55Z reuter $
-#
 #Local variables:
 #coding: utf-8
 #End:

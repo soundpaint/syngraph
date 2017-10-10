@@ -1,7 +1,3 @@
-# $Author: reuter $
-# $Date: 2008-01-03 08:28:53 +0100 (Thu, 03 Jan 2008) $
-# $Id: INSTALL 307 2008-01-03 07:28:53Z reuter $
-
 INTRODUCTION
 
 This is the INSTALL file for the SynGraph software package with
@@ -10,19 +6,20 @@ instructions for downloading, compiling and running.
 
 DOWNLOADING
 
-The software, including the most recent version of this file, is
-available at the following site:
+The source code of this software, including the most recent version of
+this file, is available at github.com on the following page:
 
-http://www.soundpaint.org/syngraph/
+  https://github.com/soundpaint/syngraph
 
-Follow the download link on this site to go the download directory.
-The software is available as compressed and packed source package
-(.tar.bz2) as well as pre-compiled binary jar file.
+The latest compiled binary (Java .jar file) is available here:
+
+  http://www.soundpaint.org/syngraph/download/syngraph-2008-01-04.18-55-36.jar
 
 
 COMPILING
 
-In order to compile the SynGraph software, you will need:
+In order to compile the source code of the SynGraph software into a
+Java .jar file, you will need:
 
 * JDK1.5 (Java 5) or later, standard or enterprise edition.
 
