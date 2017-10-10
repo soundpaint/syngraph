@@ -1,0 +1,2 @@
+# syngraph
+ SynGraph is a software tool for capturing and visualizing data on symbol-to-color mappings in the field of graphemic synaesthesia. Symbol-to-color mappings can be interactively entered into the software through its graphical user interface; the resulting diagrams can be viewed on screen, printed to paper in high resolution as well as permanently stored on disk. The diagrams offer multiple views for exploring patterns or structural rules for a given assignment of colors to symbols.
