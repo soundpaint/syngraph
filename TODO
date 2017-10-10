@@ -1,0 +1,80 @@
+# $Author: reuter $
+# $Date: 2008-01-02 15:42:07 +0100 (Wed, 02 Jan 2008) $
+# $Id: TODO 304 2008-01-02 14:42:07Z reuter $
+
+* FEATURE: Add to_upper_case / to_lower_case filters (instead of simple copy)
+* FEATURE: Make position of chars in tab editable
+* FEATURE: Make tab editable (add/delete char)
+* FEATURE: Add feature to create/delete tab
+* FEATURE: Create nicer program icon
+* FEATURE: NoticeEditor: load & save text
+* FEATURE: "Print..." / "Export..." in file menu
+* FEATURE: Enhance initial placement of application frame on screen
+* BUG: Font dialog: style???
+* BUG: NoticeEditor/Print: handle case when print does not fit on page
+* BUG: Print dialog: not all available print options are meaningful
+* BUG: Print Dialog: do not statically reopen window each time, but
+       remember settings of last visit
+* FEATURE: convert source tree into eclipse project
+* FEATURE: add per object comments (e.g. for marking a character as
+           "transparent" or "metallic")
+* FEATURE: Add more preferences:
+           * locale (if default not desired)
+           * most recently used files
+           * path settings (if any)
+* FEATURE: Add Export and Print to menu bar.
+* FEATURE: Add mnemonics support in MAP file for copy functions
+* BUG: JOptionPane: some confirmation dialogs should default to "no"
+       answer
+* BUG: I18N resources: Fix inconsistent punctuation and capitalization.
+* BUG: ProportionalLayout: autoScale/autoOffset does not work
+       correctly
+* BUG: Some mnemonics (keyboard shortcuts) collide.
+* BUG: missing mnemonics (keyboard shortcuts) in font and file dialog
+* BUG: do not use different JOptionPane styles (internal vs. default
+       dialog)
+* FEATURE: add toggle item such that whenever a color is assigned to a
+           letter, it is assigned to both, the lower case and the
+           upper case
+* FEATURE: support transparent colors (with background pattern or
+           animation)
+* FEATURE: support multicolors
+* FEATURE: support background images/textures for making transparent
+           colors better showing off
+* FEATURE: support undo
+* FEATURE: Global Properties: contact address (email) or ID for
+           researchers that would like to ask something e.g. in order
+           to clarify a comment.
+* BUG: inconsistent naming "comment" vs. "description"
+* BUG: Sometimes, JOptionPane dialogs pop up that resize to the root
+       window size (a JDK bug?).
+* FEATURE: DocumentationDialog: Add navigation history ("back" /
+           "forward" buttons), search function, index, etc.  Mark
+           external links.  Invoke browser application upon click on
+           external links.  Should use "Java Help" package, as soon as
+           it officially becomes part of the JRE.
+* FEATURE: NoticeEditor: To allow the user choosing between ambigous
+           objects with identical label, add a context menu to
+           NoticePane that let's the user optionally select the
+           desired object from a list of object descriptions for all
+           objects with this label.
+* BUG: Document.ObjectSet does not correctly handle I18N; it works
+       only for the locale that was active when the document was
+       loaded.  Example for a locale/label mismatch: For locale
+       "en_US", there is a musical key B which is labelled "H" in
+       locale "de".
+* BUG: PrintDialog crashes with NullPointerException.  Most probably a
+       bug in the interaction between the JDK and CUPS printing
+       service, see e.g.:
+       http://forums.oracle.com/forums/thread.jspa?threadID=553362&tstart=0
+* BUG: Object context menu dialog "change comment" is broken.
+* FEATURE: Create self-extracting/self-installing windows EXE binary.
+           Candidate third-party helpers for this task are Launch4J
+           and VAInstall (see
+           http://java-source.net/open-source/installer-generators for
+           a more complete list of installer generators).  Maybe NSIS
+           (Nullsoft Scriptable Install System) or Microsoft's WiX or
+           MSI SDK are also helpful.
+# Local Variables:
+# coding:utf-8
+# End:

@@ -1,0 +1,89 @@
+# $Author: reuter $
+# $Date: 2008-01-03 08:28:53 +0100 (Thu, 03 Jan 2008) $
+# $Id: INSTALL 307 2008-01-03 07:28:53Z reuter $
+
+INTRODUCTION
+
+This is the INSTALL file for the SynGraph software package with
+instructions for downloading, compiling and running.
+
+
+DOWNLOADING
+
+The software, including the most recent version of this file, is
+available at the following site:
+
+http://www.soundpaint.org/syngraph/
+
+Follow the download link on this site to go the download directory.
+The software is available as compressed and packed source package
+(.tar.bz2) as well as pre-compiled binary jar file.
+
+
+COMPILING
+
+In order to compile the SynGraph software, you will need:
+
+* JDK1.5 (Java 5) or later, standard or enterprise edition.
+
+* ant (see: http://ant.apache.org), version 1.6.5 or later.  Earlier
+  versions of ant may also work, but have not been tested.
+
+* ant-trax.  Depending on your particular system, this library either
+  may be already included in your ant distribution, or you may need to
+  additionally install it (such as under Linux Fedora Core 5).  If
+  during compilation you are getting an error similar to this one:
+
+  build.xml:142: java.lang.ClassNotFoundException:
+  org.apache.tools.ant.taskdefs.optional.TraXLiaison
+
+  then your ant distribution is probably missing the ant-trax library
+  file "ant-trax.jar", and you need to add it to your system.
+
+To compile, unpack the packed sources file, go into the top level
+directory of the sources (i.e. the directory in which this INSTALL
+file lives) and call "ant" from within this directory.  That is, if
+you are working with a command line, then simply enter "ant" from
+within this directory.  Generating the Java documentation may take a
+while; please keep this in mind if the compiling process may seem to
+temporarily hang.
+
+After successful compiling, the subdirectory build/syngraph/lib will
+contain three packages:
+
+* syngraph.jar: The compiled binary jar file, ready for execution.
+
+* syngraph_webdoc.zip: The SynGraph website, packed as a single zip
+  file.  This website contains user-relevant documentation.
+
+* syngraph_javadoc.zip: The Java documentation of the software, packed
+  as a single zip file.  This documentation is usually of interest
+  only for programmers who want to study, maintain or extend the
+  application source code.
+
+N.B.: The build file contains a task called "run" to run the generated
+syngraph.jar file; on the command line, enter "ant run" to execute
+this task.
+
+
+RUNNING
+
+For running SynGraph, you will need Java 5 (JDK or JRE, standard
+edition or enterprise edition, at your choice).  You can either fetch
+a precompiled binary jar file from the download directory (see above,
+section DOWNLOADING) or create it by compiling the sources by yourself
+(see above, section COMPILING).  Put the jar file at your favorite
+place on your computer, e.g. on the desktop or in an applications
+folder.
+
+Once you have the syngraph.jar file, you should be able to immediately
+run it.  In a graphical operating system environment, a double click
+on the file icon of the syngraph.jar file should suffice to start the
+application.  If you are using a command line processor, change into
+the directory where the jar file stays, and simply enter "java -jar
+syngraph.jar".
+
+
+# Local Variables:
+# coding:utf-8
+# End:

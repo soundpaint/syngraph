@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: N.A.
+Created-By: Juergen Reuter
+Implementation-Title: SynGraph
+Specification-Vendor: Juergen Reuter
+Implementation-Vendor: Juergen Reuter
+Main-Class: org.soundpaint.syngraph.Main
+SplashScreen-Image: media/synsplash.png

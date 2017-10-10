@@ -1,0 +1,11 @@
+body {background: #f7f7f7}
+a.title {color: black; background-color: #ffffff; text-decoration: none}
+a:link img, a:visited img {border-style: none}
+h1.title {margin: 0; padding: 0; text-transform: uppercase}
+h2.title {margin: 0; padding: 0; text-transform: uppercase}
+h3.title {margin: 0; padding: 0; }
+dt.h1 {margin-top: 2ex; margin-bottom: 1ex; font-weight: bold; font-size: x-large; }
+dt.h2 {margin-top: 2ex; margin-bottom: 1ex; font-weight: bold;}
+
+hr {height: 5px; background-color: #99cc99; color: inherit; border-style: none;
+    margin-top: 15px; margin-bottom: 15px}

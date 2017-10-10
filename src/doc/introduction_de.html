@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+      SynGraph - A tool for documenting graphemic synaesthesia.
+      (C) 2006, 2007, 2008 by Jürgen Reuter,
+      <http://www.juergen-reuter.de/>
+
+      Project Website: http://www.soundpaint.org/syngraph/
+      Jürgen Reuter, Rheinstr. 86, 76185 Karlsruhe, Germany.
+
+      This file is free software; you can redistribute it and/or
+      modify it under the terms of the GNU General Public License as
+      published by the Free Software Foundation; either version 3 of
+      the License, or (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public
+      License along with this program.  If not, see
+      <http://www.gnu.org/licenses/>.
+
+      $Author: reuter $
+      $Date: 2008-01-03 08:28:53 +0100 (Thu, 03 Jan 2008) $
+      $Id: introduction_de.html 307 2008-01-03 07:28:53Z reuter $
+  -->
+  <!--
+    Java Swing currently supports HTML only up to version 3.2 (see
+    javax.swing.text.html.HTMLEditorKit for details)
+  -->
+  <head>
+    <title>SynGraph</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="images/syngraph.png" />
+    <link rev="made" href="http://www.juergen-reuter.de/" />
+    <link rel="StyleSheet" href="syngraph-style.css" type="text/css" />
+  </head>
+  <body>
+    <p>
+      <i>There is also an <a href="introduction_en.html">English
+      version</a> of this page.</i>
+    </p>
+    <h1>SynGraph</h1>
+    <p>
+      <b><font color="#ff0000">S</font>yn<font
+      color="#660000">G</font><font color="#00cc33">r</font><font
+      color="#000066">a</font><font color="#009999">p</font><font
+      color="#f8faae">h</font></b> ist ein Software-Werkzeug zur
+      Datenerfassung und Visualisierung von Objekt-Farb-Zuordnungen
+      für graphemische Synästhesie.  Objekt-Farb-Zuordnungen können
+      über die graphische Benutzerschnittstelle des Programms in einem
+      interaktiven Prozess erfasst und die sich daraus ergebenden
+      Zurodnungsdiagramme am Bildschirm betrachtet, ausgedruckt sowie
+      als Datei persistent gespeichert werden.
+    </p>
+    <h2>Grundlegende Eigenschaften der Software</h2>
+    <p>
+      Die Software unterstützt in der aktuellen Version 0.2 die
+      folgenden grundlegenden Funktionen:
+    </p>
+    <dl>
+      <dt>
+	<b>Datenerfassung</b>
+      </dt>
+      <dd>
+	Die Erfassung der Objekt-Farb-Zuordnung erfolgt interaktiv am
+	Bildschirm an einem Diagramm mit Tastatur und Maus durch die
+	sukzessive Wahl einer Farbe für jedes Objekt des Diagramms.
+	Objekte werden durch Zeichenketten einschließlich einzelner
+	Buchstaben und Ziffern dargestellt.  Die Speicherung der
+	erfassten Daten erfolgt in einer einfachen, XML-basierten
+	Beschreibungsdatei.  Diese Datei wird zusammen mit etwaigen
+	weiteren Ressourcen nach dem .zip-Format komprimiert und
+	gebündelt gespeichert.  Auf einem erfassten Datenbestand
+	mehrer Personen aufbauend wird es dadurch prinzipiell möglich,
+	weitergehende vergleichende Untersuchungen durchzuführen.
+	Eine automatisierte Weiterverarbeitung etwa durch externe
+	Zusatzprogramme könnte beispielsweise darin bestehen, eine
+	statistische Auswertung der Zeichen-Farb-Zuordnungen einer
+	größeren Anzahl von Probanden vorzunehmen, um Gemeinsamkeiten
+	und Unterschiede in den individuellen Zuordnungen aufzuspüren.
+	Ein typisches Ergebnis einer solchen Untersuchung könnte die
+	Erkenntnis sein, dass Menschen, die den Buchstaben <tt>A</tt>
+	rot sehen, dazu tendieren, den Buchstaben <tt>I</tt> gelb oder
+	weiß zu sehen.
+      </dd>
+      <dt>
+	<b>
+	  Vergleichende Darstellung ausgewählter Ordnungskriterien
+	</b>
+      </dt>
+      <dd>
+	Das Programm bietet ferner den Benutzer die Möglichkeit,
+	verschiedene hypothetische Zuordnungsneigungen graphisch zu
+	verifizieren.  Dazu platziert das Programm in Objektdiagrammen
+	auf verschiedenen Karteireitern die Objekte exemplarisch nach
+	verschiedenen Ähnlichkeitskriterien (vgl. Abb. 1),
+	beispielsweise nach der Ähnlichkeit der geometrischen Form von
+	Großbuchstaben und Ziffern, wobei sich das Ähnlichkeitsmaß in
+	diesem Beispiel an einer klassischen, serifenlosen Schrift
+	orientiert.  Weitere Ordnungskriterien wie phonetische
+	Ähnlichkeit, Ähnlichkeit in der bei Aussprache aktivierten
+	Muskelpartien (anatomische Ähnlichkeit), Sortierung nach der
+	Reihenfolge des Erlernens oder Sortierung nach der
+	Häufigkeitsverteilung sind denkbar.  Durch vergleichendes
+	Anschauen dieser Zeichendiagramme kann der Benutzer mit
+	wenigen Blicken den Grad seiner persönlichen Neigung zu einem
+	der unterstützten Ordnungskriterien erfahren und bewerten.
+	Ferner kann der Proband durch Vergleich der verschieden
+	geordneten Ansichten erfahren, inwieweit die bloße Veränderung
+	der Anordnung der Zeichen den Farbeindruck beeinflusst.
+	<table>
+	  <tr>
+	    <td>
+	      <img src="images/alphabetic.png" alt="Alphabetische Ordnung" />
+	    </td>
+	    <td>
+	      <img src="images/geometric.png" alt="Geometrische Ordnung" />
+	    </td>
+	    <!--
+	    <td>
+	      <img src="images/keyboard.png" alt="Tastatur-Anordnung" />
+	    </td>
+	    -->
+	  </tr>
+	  <tr>
+	    <td colspan="3" align="center">
+	      <b>
+		Abb. 1: Zeichendiagramme mit verschiedenen
+		Ordnungskriterien
+	      </b>
+	    </td>
+	  </tr>
+	</table>
+      </dd>
+      <dt>
+	<b>Persönlicher farbiger Notizzettel</b>
+      </dt>
+      <dd>
+	Der persönliche farbige Notizzettel dient zur Anzeige
+	beliebiger Texte, die der Objekt-Farb-Zuordnung entsprechend
+	eingefärbt werden.  Der Text kann manuell eingegeben oder auch
+	per Ausschneiden-&amp;-Einfügen in den Notizzettel kopiert
+	werden.  Dadurch kann die individuelle Ausprägung der
+	graphemischen Synästhesie des Benutzers auf eindrucksvolle
+	Weise veranschaulicht wie auch zu Prüfungszwecken der
+	erfassten Zeichen-Farb-Zuordnung durch den Benutzer verwendet
+	werden.
+	<table>
+	  <tr>
+	    <td>
+	      <img src="images/notice.png" alt="Notizzettel" />
+	    </td>
+	  </tr>
+	  <tr>
+	    <td colspan="2" align="center">
+	      <b>Abb. 2: Farbiger Notizzettel</b>
+	    </td>
+	  </tr>
+	</table>
+      </dd>
+      <dt><b>Sonstige Eigenschaften</b></dt>
+      <dd>
+	Die Software erlaubt ferner die Auswahl des angezeigten
+	Zeichensatzes (Schriftart und -größe) sowie der
+	Zeichenhintergrundfarbe (vgl. Abb. 3).  Änderungen der
+	Einstellungen in einem Fenster wirken sich dabei nach
+	Bestätigung unmittelbar auf alle gleichzeitig geöffneten
+	Fenster aus.
+	<table>
+	  <tr>
+	    <td>
+	      <img src="images/misc.png" alt="Sonstige Eigenschaften" />
+	    </td>
+	  </tr>
+	  <tr>
+	    <td colspan="2" align="center">
+	      <b>Abb. 3: Sonstige Eigenschaften</b>
+	    </td>
+	  </tr>
+	</table>
+      </dd>
+    </dl>
+    <h2>Derzeitige Einschränkungen</h2>
+    <p>
+      Derzeit unterstützt die Software nur einige wenige Ausprägungen
+      graphemischer Synästhesie, die über reine
+      Zeichen-Farb-Zuordnungen hinaus gehen.  Zuordnungen von
+      Zeichenketten auf Farben werden teilweise unterstützt.  Zu den
+      nicht unterstützten Eigenschaften zählen insbesondere
+      mehrfarbige oder gemusterte Objekte, die Berücksichtigung des
+      kontextuellen Farbeinflusses benachbarter farbiger Objekte
+      (z.B. farbige Buchstaben innerhalb eines Wortes), sowie farbige
+      Objekte jenseits von Zeichen und Zeichenketten.  Die
+      unterstützte Auswahl an Farben folgt momentan einem auf dem
+      Standard-RGB-Modell basierenden Farbmodell; transparente Farben
+      werden daher derzeit ebensowenig berücksichtigt wie metallisch
+      glänzende Farben.
+    </p>
+    <h2>Weitergehende Beschreibung</h2>
+    <p>
+      Eine weitergehende Beschreibung des Programms ist zur Zeit
+      leider nicht verfügbar.  Die meisten der in diese Software
+      eingebauten Funktionen sollten selbsterklärend sein.  <i>Falls
+      jemand eine ausführlichere, geeignete Benutzeranleitung
+      schreibt, werde ich sie gern an dieser Stelle einfügen.</i>
+    </p>
+    <h2>Verfügbarkeit</h2>
+    <p>
+      SynGraph wurde vollständig in Java entwickelt und wird unter der
+      <i>GNU Public License</i> (&#8222;GPL&#8221;) in der Version 2
+      lizensiert.  Die binäre Fassung steht als JAR-Archiv zur
+      Verfügung und sollte problemlos auf allen Plattformen laufen,
+      auf denen Java in der Version 5 oder einer neueren Version
+      installiert ist.  Weitergehende Informationen über Java sind im
+      Internet unter <code>http://java.sun.com</code> zu finden.  Die
+      jeweils aktuellste Version von SynGraph kann sowohl als
+      Quelltext wie auch in binärer Form aus Internet unter der
+      Adresse <a
+      href="http://www.soundpaint.org/syngraph/syngraph.php">http://www.soundpaint.org/syngraph/syngraph.php</a>
+      heruntergeladen werden.
+    </p>
+    <h2>Weiterführende Literatur</h2>
+    <p>
+      Es seien noch einige weiterführende Referenzen zum Thema
+      Synästhesie genannt:
+    </p>
+    <table border="1" width="100%" cellspacing="0" cellpadding="5"
+	   bgcolor="#ded9ff">
+      <tr>
+	<td width="50%"><code>http://www.synaesthesie.net/</code></td>
+	<td>Forum für Synästhetiker und Synästhesieinteressierte </td>
+      </tr>
+      <tr>
+	<td><code>http://www.synaesthesieforum.de/</code></td>
+	<td>Moderierte Mailingliste für Synästhetiker und
+	Synästhesieinteressierte</td>
+      </tr>
+      <tr>
+	<td><code>http://www.synaesthesie.ch/</code></td>
+	<td>Schweizer Forum mit Synästhesie-Test</td>
+      </tr>
+      <tr>
+	<td><code>http://www.sensequence.de/</code></td>
+	<td>
+	  sensequence &#8212; eine Sammlung überwiegend bildlicher
+	  Beschreibungen individueller synästhetischer Empfindungen
+	</td>
+      </tr>
+    </table>
+    <hr></hr>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+	<td align="left">
+	  Karlsruhe, im Januar 2008
+	</td>
+      </tr>
+      <tr>
+	<td>
+	  &nbsp;
+	</td>
+	<td align="right">
+	  <i><a href="http://www.juergen-reuter.de/">Jürgen Reuter</a></i>
+	</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+<!--
+  Local Variables:
+    coding:utf-8
+    mode:sgml
+    mode:nXML
+  End:
+-->

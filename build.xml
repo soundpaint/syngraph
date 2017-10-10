@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE project PUBLIC "-//ANT//DTD project//EN" "project.dtd"> -->
+
+<!--
+$Author: reuter $
+$Date: 2008-01-01 10:24:45 +0100 (Tue, 01 Jan 2008) $
+$Id: build.xml 296 2008-01-01 09:24:45Z reuter $
+-->
+
+<project name="syngraph" default="all" basedir=".">
+    <!--
+      This is standard definition of all build commands that is
+      included by other build files.
+    -->
+
+    <!-- set DSTAMP, TSTAMP, and TODAY properties -->
+    <tstamp />
+
+    <!-- relative position in the file system -->
+    <property name="projectroot" value="."/>
+
+    <!-- standard structure of the module -->
+    <property name="srcdir" value="${projectroot}/src"/>
+    <property name="mediadir" value="${srcdir}/media"/>
+
+    <!-- the name of the project -->
+    <property name="projectname" value="syngraph"/>
+    <property name="appmain" value="org.soundpaint.syngraph.SynGraph"/>
+
+    <!-- project version -->
+    <!-- <loadfile property="version" srcFile="${projectroot}/VERSION"/> -->
+
+
+    <!-- FIXME: The value for property "version" should be taken from
+	 file VERSION in the project root directory. -->
+    <property name="version" value="0.0.1"/>
+
+    <!--
+    <exec executable="${projectroot}/extract_version_id.sh"
+	  outputproperty="version" os="Linux" />
+    -->
+
+    <!-- CLASSPATH definition -->
+    <path id="classpath">
+        <pathelement path="${classdir}"/>
+    </path>
+
+    <!-- standard structure of output files -->
+    <property name="builddir" value="${projectroot}/build"/>
+    <property name="outputdir" value="${builddir}/${ant.project.name}"/>
+    <property name="classdir" value="${outputdir}/class"/>
+    <property name="helpdocdir" value="${outputdir}/helpdoc"/>
+    <property name="webdocdir" value="${outputdir}/webdoc"/>
+    <property name="javadocdir" value="${outputdir}/javadoc"/>
+    <property name="webdir" value="${outputdir}/web"/>
+    <property name="libdir" value="${outputdir}/lib"/>
+    <property name="binjar" value="${libdir}/${ant.project.name}.jar"/>
+    <property name="javadoczip" value="${libdir}/${ant.project.name}_javadoc.zip"/>
+    <property name="webdoczip" value="${libdir}/${ant.project.name}_webdoc.zip"/>
+    <property name="java-sources" value="${srcdir}/java"/>
+    <property name="doc-sources" value="${srcdir}/doc"/>
+
+    <!-- build targets  -->
+
+    <target name="bin" depends="syg">
+	<mkdir dir="${classdir}"/>
+	<javac target="1.5" source="1.5" debug="yes"
+	       srcdir="${java-sources}" destdir="${classdir}"
+	       deprecation="yes">
+	    <compilerarg value="-Xlint:all"/>
+	    <classpath refid="classpath"/>
+	</javac>
+    </target>
+
+    <target name="syg">
+      <mkdir dir="${outputdir}/media"/>
+      <zip destfile="${outputdir}/media/template.syg">
+	<zipfileset dir="${srcdir}/media" includes="MAP"/>
+      </zip>
+    </target>
+
+    <target name="bin.jar" depends="bin,helpdoc">
+	<mkdir dir="${libdir}"/>
+	<jar jarfile="${binjar}"
+	     manifest="${srcdir}/META-INF/MANIFEST.MF"
+	     update="false">
+	    <fileset dir="${projectroot}" casesensitive="yes">
+	      <include name="COPYING_??"/>
+	    </fileset>
+	    <fileset dir="${classdir}"/>
+	    <fileset dir="${java-sources}">
+	      <include name="**/*.properties"/>
+	    </fileset>
+	    <fileset dir="${outputdir}">
+	      <include name="media/*.syg"/>
+	    </fileset>
+	    <fileset dir="${srcdir}">
+	      <include name="media/*.png"/>
+	    </fileset>
+	    <fileset dir="${outputdir}">
+	      <include name="helpdoc/**" />
+	    </fileset>
+	    <manifest>
+		<attribute name="Specification-Version"
+			   value="${version}"/>
+		<attribute name="Implementation-Version"
+			   value="${version} ${TODAY}"/>
+	    </manifest>
+	</jar>
+	<!--
+	<signjar jar="${binjar}"
+		 alias="syngraph"
+		 storepass="syngraph_build"
+		 keystore="${build_keystore}"/>
+	-->
+    </target>
+
+    <target name="helpdoc">
+
+
+      <!--
+      <copy todir="${helpdocdir}">
+	<fileset dir="${doc-sources}" defaultexcludes="yes">
+	  <include name="**/*.html"/>
+	</fileset>
+      </copy>
+      -->
+      <xslt style="${doc-sources}/xhtml2html.xslt"
+	    destdir="${helpdocdir}"
+	    basedir="src/doc"
+	    processor="trax"
+	    includes="**/*.html">
+	<classpath refid="classpath"/>
+      </xslt>
+
+      <copy todir="${helpdocdir}">
+	<fileset dir="${doc-sources}" defaultexcludes="yes">
+	  <include name="**/*.css"/>
+	  <include name="images/**"/>
+	</fileset>
+      </copy>
+    </target>
+
+    <target name="webdoc">
+      <mkdir dir="${webdocdir}"/>
+      <copy todir="${webdocdir}">
+	<fileset dir="${doc-sources}" defaultexcludes="yes">
+	  <include name="**/*.htaccess"/>
+	  <include name="**/*.html"/>
+	  <include name="**/*.css"/>
+	  <include name="images/**"/>
+	</fileset>
+      </copy>
+    </target>
+
+    <target name="webdoc.zip" depends="webdoc">
+	<mkdir dir="${libdir}"/>
+	<zip destfile="${webdoczip}" basedir="${webdocdir}"/>
+    </target>
+
+    <target name="javadoc">
+	<mkdir dir="${javadocdir}"/>
+	<javadoc destdir="${javadocdir}"
+		 author="true"
+		 version="true"
+		 use="true"
+		 access="private"
+		 windowtitle="SynGraph Java Documentation"
+	>
+	    <fileset dir="${java-sources}" defaultexcludes="yes">
+		<include name="**/*.java"/>
+	    </fileset>
+	    <classpath refid="classpath"/>
+	    <doctitle><![CDATA[<h1>SynGraph $version$</h1>]]></doctitle>
+	    <bottom>
+		<![CDATA[<i>Copyright &#169; 2006 by J&uuml;rgen Reuter.</i>]]>
+	    </bottom>
+	</javadoc>
+    </target>
+
+    <target name="javadoc.zip" depends="javadoc">
+	<mkdir dir="${libdir}"/>
+	<zip destfile="${javadoczip}" basedir="${javadocdir}"/>
+    </target>
+
+    <target name="all" depends="bin.jar,webdoc.zip,javadoc.zip"/>
+
+    <target name="run" depends="bin.jar">
+      <java jar="${binjar}" fork="yes">
+	<!--
+	<arg value="example.syg"/>
+	-->
+	<assertions>
+	  <enable />
+	</assertions>
+	<classpath refid="classpath"/>
+      </java>
+    </target>
+
+    <target name="tarball">
+      <tstamp prefix="tarstamp.">
+	<format property="TODAY" pattern="yyyy-MM-dd.HH-mm-ss" />
+      </tstamp>
+      <tar destfile="${projectroot}/../syngraph-${tarstamp.TODAY}.src.tar.bz2"
+	   compression="bzip2">
+	<tarfileset dir="." prefix="syngraph-${tarstamp.TODAY}">
+	  <exclude name="**/*~" />
+	  <exclude name="build/**" />
+	</tarfileset>
+      </tar>
+    </target>
+
+    <target name="clean">
+	<delete dir="${outputdir}"/>
+    </target>
+
+    <target name="cleanall">
+	<delete dir="${antbuildrootdir}"/>
+    </target>
+</project>
+
+<!--
+    Local Variables:
+    coding:utf-8
+    mode:sgml
+    mode:nXML
+    End:
+-->

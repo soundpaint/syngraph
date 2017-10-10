@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+      SynGraph - A tool for documenting graphemic synaesthesia.
+      (C) 2006, 2007, 2008 by Jürgen Reuter,
+      <http://www.juergen-reuter.de/>
+
+      Project Website: http://www.soundpaint.org/syngraph/
+      Jürgen Reuter, Rheinstr. 86, 76185 Karlsruhe, Germany.
+
+      This file is free software; you can redistribute it and/or
+      modify it under the terms of the GNU General Public License as
+      published by the Free Software Foundation; either version 3 of
+      the License, or (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public
+      License along with this program.  If not, see
+      <http://www.gnu.org/licenses/>.
+
+      $Author: reuter $
+      $Date: 2008-01-03 08:28:53 +0100 (Thu, 03 Jan 2008) $
+      $Id: introduction_en.html 307 2008-01-03 07:28:53Z reuter $
+  -->
+  <!--
+    Java Swing currently supports HTML only up to version 3.2 (see
+    javax.swing.text.html.HTMLEditorKit for details)
+  -->
+  <head>
+    <title>SynGraph</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="images/syngraph.png" />
+    <link rev="made" href="http://www.juergen-reuter.de/" />
+    <link rel="StyleSheet" href="syngraph-style.css" type="text/css" />
+  </head>
+  <body>
+    <p>
+      <i>Diese Einführung gibt es auch als <a
+      href="introduction_de.html">deutsche Version</a>.</i>
+    </p>
+    <h1>SynGraph</h1>
+    <p>
+      <b><font color="#ff0000">S</font>yn<font
+      color="#660000">G</font><font color="#00cc33">r</font><font
+      color="#000066">a</font><font color="#009999">p</font><font
+      color="#f8faae">h</font></b> is a software tool for capturing
+      and visualizing data on object-color mappings in the field of
+      graphemic synaesthesia.  object-color mappings can be
+      interactively entered into the software through its graphical
+      user interface; the resulting diagrams can be viewed on screen,
+      printed to paper as well as permanently stored on disk.
+    </p>
+    <h2>Basic Properties of the Software</h2>
+    <p>
+      As of its current version 0.2, the software supports the
+      following basic functionality:
+    </p>
+    <dl>
+      <dt>
+	<b>Data Capturing</b>
+      </dt>
+      <dd>
+	Capturing object-color mappings can be interactively performed
+	on screen with mouse and keyboard input by choosing an
+	individual color for each object in a diagram.  Objects are
+	represented by character strings, including single letters and
+	digits.  Captured data is stored in a simple, XML based file.
+	This file and any other associated resources are compressed
+	and saved in an archive, following the .zip file format.
+	Having collected graphemic data from multiple people, the
+	simple file format makes it easy to further process the data
+	for analytical studies.  For example, external additional
+	tools could be applied in order to automatically compute a
+	statistic evaluation of the object-color mappings of a larger
+	number of probationers, in order to reveal similarities and
+	differences in their individual mappings.  A typical result
+	could be the finding that people who perceive the letter
+	<tt>A</tt> in red color, tend to perceive the letter
+	<tt>I</tt> in yellow or white color.
+      </dd>
+      <dt>
+	<b>
+	  Comparing Representation of Selected Criteria of Order
+	</b>
+      </dt>
+      <dd>
+	The program also enables the user to graphically verify
+	hypothetical inclinations of mappings.  To achieve this goal,
+	the program groups objects in tabbed panes, placed according
+	to specific similarity criteria (cp. Fig. 1), for example by
+	ordering capital letters and digits by their geometrical form,
+	assuming a classical sans serif font for the notion of
+	geometrical form of characters.  Further criteria for ordering
+	are imaginable, such as phonetic similarity of words or
+	letters, similarity of muscles activated upon speaking
+	(anatomic similarity), sorting of letters according to the
+	order pupils learn them in school, or sorting of letters
+	according to their frequency in natural language.  The tabbed
+	panes enable the user to directly visually compare and value
+	such orderings and their correspondence to their individual
+	object-color mappings.  Moreover, by comparing the diagrams in
+	the tabbed pane, the probationer can immediately recognize how
+	far pure reordering of characters influences the colored
+	perception of objects.
+	<table>
+	  <tr>
+	    <td>
+	      <img src="images/alphabetic.png" alt="Alphabetic Order" />
+	    </td>
+	    <td>
+	      <img src="images/geometric.png" alt="Geometric Order" />
+	    </td>
+	    <!--
+	    <td>
+	      <img src="images/keyboard.png" alt="Keyboard Order" />
+	    </td>
+	    -->
+	  </tr>
+	  <tr>
+	    <td colspan="3" align="center">
+	      <b>
+		Fig. 1: Object-Color Mappings based on Various
+		Criteria of Ordering
+	      </b>
+	    </td>
+	  </tr>
+	</table>
+      </dd>
+      <dt>
+	<b>Personally Colored Note Pad</b>
+      </dt>
+      <dd>
+	The coloured notepad displays arbitrary texts according to the
+	object-color mapping of characters.  The text can be manually
+	entered or cut-&amp;-pasted into the pad, displayed, printed,
+	or saved as image.  This way, the characteristics of an
+	individual person's graphemic synaesthesia can be nicely
+	illustrated as well as used for validation of the user's
+	specification of character-color mapping.
+	<table>
+	  <tr>
+	    <td>
+	      <img src="images/notice.png" alt="Note Pad" />
+	    </td>
+	  </tr>
+	  <tr>
+	    <td colspan="2" align="center">
+	      <b>Fig. 2: Colored Note Pad</b>
+	    </td>
+	  </tr>
+	</table>
+      </dd>
+      <dt>
+	<b>Miscelleanous Properties</b>
+      </dt>
+      <dd>
+	The software also supports selecting the font and character
+	size to be used for display, as well as the background color
+	(cp. Fig. 3).  Committing a change of such a property in one
+	window immediately affects display in all other simultaneously
+	opened windows.
+	<table>
+	  <tr>
+	    <td>
+	      <img src="images/misc.png" alt="Miscelleanous Properties" />
+	    </td>
+	  </tr>
+	  <tr>
+	    <td colspan="2" align="center">
+	      <b>Fig. 3: Miscelleanous Properties</b>
+	    </td>
+	  </tr>
+	</table>
+      </dd>
+    </dl>
+    <h2>Current Limitations</h2>
+    <p>
+      Currently, the software supports only few forms of synaesthesia
+      reaching beyond pure character-color mappings.  Mappings from
+      character strings to colors are partially supported.  The set of
+      missing features most notably contains multi-colored or textured
+      objects; consideration of contextual influence of neighbouring
+      colored objects (e.g. colored letters within a word); and
+      objects beyond characters and strings.  The supported set of
+      colors currently is based on the standard RGB color model;
+      transparent or metallic colors are not supported by now.
+    </p>
+    <h2>Advanced Description</h2>
+    <p>
+      A more detailed description of the software is currently not
+      available.  Still, most of the features built into the software
+      should be self-explanatory.  <i>In case, somebody writes a more
+      comprehensive documentation in an appropriate style, I will
+      gladfully insert the documentation in this place.</i>
+    </p>
+    <h2>Download</h2>
+    <p>
+      SynGraph has been completely developed in Java and is
+      distributed under version 2 of the <i>GNU Public License</i>
+      (&#8220;GPL&#8221;).  A binary version of the code is available
+      as JAR archive file and should run out of the box on any
+      platform that has installed Java Version 5 (JDK 1.5) or higher.
+      For more on information on Java, see
+      <code>http://java.sun.com</code>.  The latest version of
+      SynGraph can be downloaded as source code as well as in binary
+      form from the Web at <a
+      href="http://www.soundpaint.org/syngraph/syngraph.php">http://www.soundpaint.org/syngraph/syngraph.php</a>.
+    </p>
+    <h2>Further Reading</h2>
+    <p>
+      The following references on synaesthesia may be interesting for
+      the reader:
+    </p>
+    <table border="1" width="100%" cellspacing="0" cellpadding="5"
+	   bgcolor="#ded9ff">
+      <tr>
+	<td width="50%"><code>http://www.synaesthesie.net/</code></td>
+	<td>Internet forum for synaesthetics and synaesthetic
+	researchers</td>
+      </tr>
+      <tr>
+	<td><code>http://www.synaesthesieforum.de/</code></td>
+	<td>Moderated mailing list for synaesthetics and
+	synaesthetic researchers</td>
+      </tr>
+      <tr>
+	<td><code>http://www.synaesthesie.ch/</code></td>
+	<td>Swiss internet forum with synaesthetic test</td>
+      </tr>
+      <tr>
+	<td><code>http://www.sensequence.de/</code></td>
+	<td>
+	  sensequence &#8212; a collection of mostly pictured
+	  descriptions of individual synaesthetic sensations
+	</td>
+      </tr>
+    </table>
+    <hr></hr>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+	<td align="left">
+	  Karlsruhe, January 2008
+	</td>
+      </tr>
+      <tr>
+	<td>
+	  &nbsp;
+	</td>
+	<td align="right">
+	  <i><a href="http://www.juergen-reuter.de/">Jürgen Reuter</a></i>
+	</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+<!--
+  Local Variables:
+    coding:utf-8
+    mode:sgml
+    mode:nXML
+  End:
+-->

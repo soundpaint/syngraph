@@ -1,0 +1,427 @@
+2008-01-04  Jürgen Reuter  <http://www.soundpaint.org/>
+
+	* src/java/org/soundpaint/syngraph/MenuBar.java,
+	src/java/org/soundpaint/syngraph/DocumentInfo.java,
+	src/java/org/soundpaint/syngraph/AppFrame.java,
+	src/java/org/soundpaint/syngraph/ToolBar.java,
+	src/java/org/soundpaint/syngraph/DocumentInfoChangeListener.java:
+	Bugfix: Do not implicitly notify changes in "haveDocument" via
+	listener method "pathChanged".  This change fixes turning on/off
+	the status line display.  For this purpose, introduced a new
+	document info change listener method "haveDocumentChanged".
+	Adapted all implementing classes of document info change listener
+	accordingly.  Thereby got rid of annoying reference to
+	DocumentInfo in ToolBar class.
+
+	* src/java/org/soundpaint/syngraph/Resources_en.properties:
+	Bugfix: Use correct escaping for special character "'".
+
+	* src/java/org/soundpaint/syngraph/ResourceBundle.java: Bugfix:
+	Commented out behavior-changing debugging code.
+
+	* src/java/org/soundpaint/syngraph/MenuBar.java: Removed dead
+	constructor.  Got rid of annoying reference to Document class.
+
+	* src/media/MAP,
+	src/java/org/soundpaint/syngraph/ColorChooser.java,
+	src/java/org/soundpaint/syngraph/PropertiesDialog.java,
+	src/java/org/soundpaint/syngraph/MenuBar.java,
+	src/java/org/soundpaint/syngraph/ObjectTabbedPane.java,
+	src/java/org/soundpaint/syngraph/Document.java,
+	src/java/org/soundpaint/syngraph/DocumentChangeAdapter.java,
+	src/java/org/soundpaint/syngraph/NoticeEditor.java,
+	src/java/org/soundpaint/syngraph/DocumentChangeListener.java,
+	src/java/org/soundpaint/syngraph/ObjectTab.java: Added support for
+	saving and restoring which tab of the tabbed pane is selected.
+
+	* src/java/org/soundpaint/syngraph/Document.java: Minor editorial
+	fixes.
+
+	* src/java/org/soundpaint/syngraph/ObjectTab.java: For consistency
+	reasons, renamed instance field "id" -> "tabID".
+
+2008-01-03  Jürgen Reuter  <http://www.soundpaint.org/>
+
+	* src/media/MAP, src/java/org/soundpaint/syngraph/*.java,
+	src/java/org/soundpaint/syngraph/*.properties, COPYING_de,
+	COPYING_en, src/doc/introduction_de.html,
+	src/doc/introduction_en.html: Updated licence to GNU GPL v3.
+
+	* AUTHORS: Bugfix: Forgot to update web URL.
+
+	* COPYING (new): Default COPYING file, linked to English version.
+
+	* src/java/org/soundpaint/syngraph/Resources.java: Bugfix: Forgot
+	to update package info.
+
+	* src/doc/.htaccess: Removed, since this file was specific for the
+	old website.
+
+	* INSTALL: Bugfix: Forgot to update link.
+
+	* src/java/org/soundpaint/syngraph/Resources_en.properties,
+	src/java/org/soundpaint/syngraph/Resources_de.properties,
+	src/java/org/soundpaint/syngraph/Resources.java: Bugfix: Updated
+	wording of label.text.appFrameUsage due to actual program
+	behavior.
+
+	* src/java/org/soundpaint/syngraph/Resources_en.properties,
+	src/java/org/soundpaint/syngraph/Resources_de.properties,
+	src/java/org/soundpaint/syngraph/Resources.java,
+	src/java/org/soundpaint/syngraph/Document.java: Security fix:
+	Added reasonable limits to avert denial of service attacks via
+	malicious .syg files.
+
+2008-01-02  Jürgen Reuter  <http://www.soundpaint.org/>
+
+	* src/java/org/soundpaint/syngraph/PropertiesDialog.java,
+	src/java/org/soundpaint/syngraph/FontDialog.java,
+	src/java/org/soundpaint/syngraph/PreferencesDialog.java: Bugfix:
+	For consistency reasons and to avoid dangling data when closing a
+	file, make these dialogs modal.
+
+	* src/java/org/soundpaint/syngraph/MenuBar.java: Bugfix: Do not
+	disable NoticePad when no file is opened.
+
+	* src/java/org/soundpaint/syngraph/ObjectTab.java: Disable object
+	context menu for now, since the object properties dialog is
+	partially broken.
+
+	* src/java/org/soundpaint/syngraph/ColorChooser.java: Bugfix: Call
+	pack() method only after font size, etc. are complete.
+
+	* TODO: Updated.
+
+	* src/media/MAP: Fine-tuned description for circle of vowels.
+
+	* src/java/org/soundpaint/syngraph/FileChooser.java: Bugfix: Do
+	not crash with ClassCastException when handling a swing
+	FileFilter.
+
+2008-01-01  Jürgen Reuter  <http://www.soundpaint.org/>
+
+	* src/boot, build.xml: Removed bootstrap splash screen; using
+	instead JDK 1.6's splash-screen (or no splash screen at all if JDK
+	1.5 is used).
+
+	* src/core/de/uka/ipd/syngraph: Moved to
+	src/org/soundpaint/syngraph.
+
+	* src/org/soundpaint/syngraph/*.java,
+	src/org/soundpaint/syngraph/*.properties: Updated package
+	declaration.  Updated Copyright line.  Updated source location
+	info.
+
+	* src/doc/introduction_en.html, src/doc/introduction_de.html:
+	Updated Copyright line.  Updated source location info.
+
+	* src/java (new): New directory for java resources.
+
+	* build.xml: Updated build file according to modified directory
+	file layout.
+
+	* src/org: Moved to src/java/org.
+
+	* src/core: Removed, since no more used in new directory file
+	structure.
+
+	* src/META-INF/MANIFEST.MF,
+	src/java/org/soundpaint/syngraph/ResourceBundle.java: Replace
+	references to obsolete package de.uka.ipd.syngraph by package
+	org.soundpaint.syngraph.
+
+	* src/java/org/soundpaint/syngraph/*.java,
+	src/java/org/soundpaint/syngraph/*.properties: Updated Copyright
+	line.
+
+	* src/doc/introduction_*.html: Updated program version info.
+
+2007-12-31  Jürgen Reuter  <http://www.soundpaint.org/>
+
+	* TODO: Added Self-extraction/installing as requested feature.
+
+	* src/META-INF/MANIFEST.MF: Use splash screen feature built into
+	jdk1.6 or later (if jdk1.5 is used, then no splash screen is
+	displayed).  Change MF main class definition from obsolete splash
+	start-up code to actual application main class.
+
+	* src/boot/de/uka/ipd/syngraph/SplashScreen.java: Added comment on
+	disabled splash screen.  Fixed English wording in another comment.
+
+	* src/doc/introduction_en.html, src/doc/introduction_de.html:
+	Update links to web page.
+
+	* src/doc/introduction_en.html: Bugfix: broken link to German
+	introduction page.
+
+	* src/core/de/uka/ipd/syngraph/Resources_en.properties: Bugfix:
+	Add missing translation.
+
+	* src/core/de/uka/ipd/syngraph/ColorChooser.java,
+	src/core/de/uka/ipd/syngraph/ExportDialog.java,
+	src/core/de/uka/ipd/syngraph/FileChooser.java,
+	src/core/de/uka/ipd/syngraph/ObjectPropertiesDialog.java,
+	src/core/de/uka/ipd/syngraph/PropertiesDialog.java,
+	src/core/de/uka/ipd/syngraph/PrintDialog.java,
+	src/core/de/uka/ipd/syngraph/LicenceDialog.java,
+	src/core/de/uka/ipd/syngraph/FontDialog.java,
+	src/core/de/uka/ipd/syngraph/SaveDialog.java,
+	src/core/de/uka/ipd/syngraph/OpenDialog.java,
+	src/core/de/uka/ipd/syngraph/PreferencesDialog.java,
+	src/core/de/uka/ipd/syngraph/NoticeEditor.java,
+	src/core/de/uka/ipd/syngraph/DocumentationDialog.java: Bugfix:
+	Made these dialogs consistently each have an owning parent frame.
+
+	* src/core/de/uka/ipd/syngraph/DocumentationDialog.java: Bugfix:
+	Only follow internal links.  Ignore invalid URLs.
+
+	* src/core/de/uka/ipd/syngraph/FontDialog.java: Removed redundant
+	"apply" button.  Renamed "close" button into "approve".
+	
+	* src/core/de/uka/ipd/syngraph/DocumentChangeListener.java,
+	src/core/de/uka/ipd/syngraph/DocumentChangeAdapter.java,
+	src/core/de/uka/ipd/syngraph/ObjectPropertiesDialog.java,
+	src/core/de/uka/ipd/syngraph/NoticeEditor.java,
+	src/core/de/uka/ipd/syngraph/ObjectTab.java: Removed obsolete
+	change listener methods.  Added change listener methods for newly
+	introduced functions and sets.
+
+	* src/core/de/uka/ipd/syngraph/DocumentInfo.java (new): Store and
+	manage document meta information, such as the document's file
+	path, its change status, the document author, and a reference to
+	the document itself.
+
+	* src/core/de/uka/ipd/syngraph/Document.java: Removed code that
+	has been replaced by the new DocumentInfo class.  Updated
+	Copyright info.  Added support for sets and functions in MAP
+	files.  Added public declarations for default colors and font.
+	Replaced labelInfos by a set dedicated for key to symbol mapping
+	for the NoticePad, which is defined in the MAP file.  Added
+	support for more verbose error message when a MAP file is
+	corrupted.  Bugfix: Made file format version error display an
+	ordinary internationalized message; same for unknown properties.
+	Changed MAP syntax "#" into "." for better consistency.  Implement
+	load as in-place substitution, since document management is now
+	performed by DocumentInfo.  Renamed "denounceAll" ->
+	"detachFromGUI".  Renamed "announceAll" -> "attachToGUI".  Moved
+	handling of document change listeners to DocumentInfo class.
+	Removed obsolete "getObjectColorByLabel" method; instead, a
+	dedicated key->symbol function is defined in the MAP file.
+	Replaced all dedicated copy color functions by a single generic
+	one that is backed by a mapping defined through a function in the
+	MAP file.
+
+	* src/core/de/uka/ipd/syngraph/ObjectTab.java: Bugfix: Do not
+	crash if document is null.
+
+	* src/core/de/uka/ipd/syngraph/ObjectTabbedPane.java: Removed
+	unused document info change listener stubs.  Bugfix: Handle case
+	when document is null without throwing a NullPointerException.
+
+	* src/core/de/uka/ipd/syngraph/FileChooser.java: Removed unused
+	parameter for createDialog().
+
+	* src/core/de/uka/ipd/syngraph/SaveDialog.java,
+	src/core/de/uka/ipd/syngraph/OpenDialog.java: : Replaced use of
+	Document with that of DocumentInfo.
+
+	* src/core/de/uka/ipd/syngraph/PreferencesDialog.java: Bugfix in
+	GUI component layout: Add horizontal glue such that checkbox
+	labels are put near to their corresponding checkboxes.
+
+	* src/core/de/uka/ipd/syngraph/NoticeEditor.java: Added new
+	cryptify option.  Renamed "content" -> "document".  Removed hooks
+	"createNoticePane" and "createTextUpdater" for (now obsoleted)
+	subclasses and made protected fields private.  Bugfix: Update not
+	only colors, but also the font, if changed.  Bugfix: Do not crash
+	if document is null.
+
+	* src/core/de/uka/ipd/syngraph/MenuBar.java: Added "file->close".
+	Replaced hard-coded "edit->copy ..." by soft-coded ones, generated
+	from functions found in the MAP file.  Replaced dependency from
+	Main with DocumentInfo.  Removed superfluous explicit call to
+	super class.  Bugfix: disable "file->save" when file is unchanged.
+	Disable "file->save", "file->saveAs", "file->close",
+	"file->properties", "file->noticePad", and all "edit->*", when
+	there is no document loaded.  Removed obsolete CrypticPad.
+
+	* src/core/de/uka/ipd/syngraph/AppFrame.java: Replaced use of
+	Document with that of DocumentInfo.  Pass only DocumentInfo to
+	MenuBar rather than access to main class (but need to announce
+	MenuBar as listener instead).  Bugfix: Need to make ToolBar
+	listening to DocumentInfo change events.  Renamed method
+	"log"->"logLine".  Bugfix: Need to care for visibility of status
+	line.  Added method for clearing the status line.
+
+	* src/core/de/uka/ipd/syngraph/ToolBar.java: Bugfix: Need to
+	listen to change events in order to enable/disable save button.
+
+	* src/core/de/uka/ipd/syngraph/ColorChooser.java,
+	src/core/de/uka/ipd/syngraph/PropertiesDialog.java: Removed
+	obsolete change listeners.  Added change listeners for newly
+	introduced functions and sets.
+
+	* src/core/de/uka/ipd/syngraph/PrintDialog.java: Commented out
+	book printing stuff, since only a single page is printed.
+
+	* src/core/de/uka/ipd/syngraph/Main.java: Replaced use of Document
+	with or added to it that of DocumentInfo.  Bumped program version
+	to 0.2.  Bumped file format version to 0.2.  Minor fix in
+	capitalization of property key.
+
+	* src/core/de/uka/ipd/syngraph/GUI.java: Removed support for
+	CrypticEditor.  Added support for new item "file->close".
+	Replaced dedicated copy menu items in "edit" menu by a variable
+	number of generic copy menu items, as defined in the MAP file.
+	Bugfix: Consistently pass owner parent frame to dialogs.  Replaced
+	use of Document with that of DocumentInfo.  Tremendously
+	simplified the code for exiting the application by using the new
+	document close functionality.
+
+	* src/core/de/uka/ipd/syngraph/Resources_en.properties,
+	src/core/de/uka/ipd/syngraph/Resources_de.properties,
+	src/core/de/uka/ipd/syngraph/Resources.java: Added I18N labels for
+	new cryptify option in NoticePad dialog and for new menu item
+	"file->close".  Removed obsoleted CrypticPad labels.  Replaced
+	copy menu item labels by a generic label.  Added labels for more
+	detailed messages on corrupted MAP files.  Updated Copyright and
+	download link.  Minor fixes in translations and capitalization of
+	property keys.
+
+	* src/core/de/uka/ipd/syngraph/FontDialog.java: Replace buttons
+	Cancel/Apply/Close by Cancel/Approve.  This change solves the
+	problem of cancelling a previously performed apply.
+
+	* src/core/de/uka/ipd/syngraph/Main.java: Removed obsolete
+	debugging code.
+
+	* src/media/MAP: Bumped file format version to 0.2.  Changed
+	syntax "#"->"." where appropriate.  Added object sets for copy
+	functions.  Make more pervasive use of unicode characters in
+	labels and comments (musical flat symbol, left/right quotes,
+	etc.).
+
+	* TODO: Added feature request: copy function mnemonics support.
+	Added feature requests for documentation dialog.  Added feature
+	request: non-character object selection for insertion.  Added
+	Document.ObjectSet I18N bug.  Added note on NullPointerException
+	in PrintDialog.  Removed solved issues.
+
+	* src/core/de/uka/ipd/syngraph/CrypticEditor.java: Removed, since
+	NoticeEditor now supports encryption.
+
+2006-11-21  Jürgen Reuter  <http://www.ipd.uka.de/~reuter/>
+
+	* src/doc/images (new): Directory for documentation images.
+
+	* src/doc/*.png: Moved to src/doc/images.
+
+	* src/doc/introduction_de.html, src/doc/introduction_en.html: Use
+	css stylesheet.  Images moved to images directory.  Converted to
+	xhtml.  Changed document title to "SynGraph".  Added "made" header
+	link.  Added shortcut icon information.  Added links to web page
+	translations.  Corrected software version identifier.  Updated
+	link to download directory.  Updated signature date.  Made
+	indentation of comments more consistent.
+
+	* src/doc/xhtml2html.xslt (new): xslt file to convert xhtml
+	documentation to html (as needed by the HTMLEditorKit).
+
+	* src/doc/syngraph-style.css (new): Added css stylesheet for html
+	documentation.  Currently only affects online documentation.
+
+	* src/doc/.htaccess (new): Apache access configuration file;
+	redirects index.html to localized index file.
+
+	* src/core/de/uka/ipd/syngraph/Resources_en.properties,
+	src/core/de/uka/ipd/syngraph/Resources_de.properties,
+	src/core/de/uka/ipd/syngraph/Resources.java, build.xml: Help
+	documentation moved within jar binary from /doc to /helpdoc
+	directory.
+
+	* build.xml: Added code to create help documentation, web
+	documentation and java documentation separately.  Build help
+	documentation and web documentation from same sources.  Fine-tuned
+	order of jar file entries.  Put javadoc into zip file rather than
+	jar file.  Removed obsolete commented-out code.
+
+	* build.xml: Workaround: Explicitly add ant-trax.jar in classpath.
+	ant-trax.jar should be bundled with ant.
+
+	* TODO: Added notes about another two bugs to be fixed.
+
+	* INSTALL: Added documentation for downloading, compiling and
+	running the application.
+
+	* build.xml: Fixed ant-trax problem (also see INSTALL file).
+
+	* INSTALL: Added note on "ant run" task.  Minor edit.
+
+	* src/doc/introduction_en.html, src/doc/introduction_de.html: Made
+	page title and document title consistent.  Added link to home page
+	in order to respect § 6 TKDG.  Cleanup: use empty tags in header.
+
+	* build.xml: Change date format in tarball filename for better
+	lexical sorting.
+
+2006-11-20  Jürgen Reuter  <http://www.ipd.uka.de/~reuter/>
+
+	* build.xml: Fixed building of Java documentation.
+
+	* src/core/de/uka/ipd/syngraph/FileFilter.java,
+	src/core/de/uka/ipd/syngraph/FileView.java: Added note on
+	derivation of this code.  Fixed bad javadoc comments.
+
+	* src/core/de/uka/ipd/syngraph/FileView.java: Removed unused
+	method.
+
+	* src/core/de/uka/ipd/syngraph/DocumentChangeListener.java: Fixed
+	bad javadoc comments.
+
+2006-11-19  Jürgen Reuter  <http://www.ipd.uka.de/~reuter/>
+
+	* */*: Initial revision.
+
+	* ChangeLog, build.xml, extract_version_id.sh, src/media/MAP,
+	src/doc/introduction_de.html, src/doc/introduction_en.html: Added
+	$keywords$.
+
+	* ChangeLog, TODO, INSTALL, NEWS, README, build.xml,
+	extract_version_id.sh, src/media/MAP,
+	src/doc/introduction_de.html, src/doc/introduction_en.html,
+	src/boot/de/uka/ipd/syngraph/*.java,
+	src/core/de/uka/ipd/syngraph/*.java,
+	src/core/de/uka/ipd/syngraph/Resources_*.properties: Set
+	svn:keywords.
+
+	* TODO: Updated.
+
+	* src/boot/de/uka/ipd/syngraph/SplashScreen.java,
+	src/boot/de/uka/ipd/syngraph/MessageWindow.java: Added missing
+	serialVersionUID constant.
+
+	* build.xml: Turned on all javac compiler warnings.
+
+	* build.xml, src/core/de/uka/ipd/syngraph/Main.java: Renamed
+	black.syg => template.syg.
+
+	* src/core/de/uka/ipd/syngraph/I18NPropertyEditor.java,
+	src/core/de/uka/ipd/syngraph/CrypticEditor.java,
+	src/core/de/uka/ipd/syngraph/ObjectTab.java: Added missing
+	serialVersionUID constant.
+
+	* src/core/de/uka/ipd/syngraph/Resources_en.properties,
+	src/core/de/uka/ipd/syngraph/Resources.java,
+	src/core/de/uka/ipd/syngraph/Resources_de.properties: Update
+	project website link.
+
+	* build.xml: Cleanup.
+
+#
+# $Author: reuter $
+# $Date: 2008-01-04 04:19:55 +0100 (Fri, 04 Jan 2008) $
+# $Id: ChangeLog 313 2008-01-04 03:19:55Z reuter $
+#
+#Local variables:
+#coding: utf-8
+#End:

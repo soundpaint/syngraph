@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<!--
+SynGraph - A tool for documenting graphemic synaesthesia.
+(C) 2006, 2007, 2008 by
+Jürgen Reuter <http://www.juergen-reuter.de/>
+
+Project Website: http://www.soundpaint.org/syngraph/
+Jürgen Reuter, Rheinstr. 86, 76185 Karlsruhe, Germany.
+
+This file is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published
+by the Free Software Foundation; either version 3 of the License,
+or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see
+<http://www.gnu.org/licenses/>.
+
+$Author: reuter $
+$Date: 2008-01-04 04:19:55 +0100 (Fri, 04 Jan 2008) $
+$Id: MAP 313 2008-01-04 03:19:55Z reuter $
+-->
+<properties>
+<comment>syngraph</comment>
+
+<!-- Global Definitions: -->
+
+<entry key="format.version">0.2</entry>
+<entry key="document.title">black.syg</entry>
+<entry key="document.author">reuter</entry>
+<entry key="document.font.name">Dialog.bold</entry>
+<entry key="document.font.style">1</entry>
+<entry key="document.font.size">32</entry>
+<entry key="document.background.color">#ffffff</entry>
+<entry key="document.selectedTab.capitalLetters" />
+
+<!-- Dial Disk Tab: -->
+
+<entry key="tab.dialDisk.label.de">Wählscheibe</entry>
+<entry key="tab.dialDisk.label.en_US">Dial Disk</entry>
+<entry key="tab.dialDisk.comment.de">
+  Die Wählscheiben-Ansicht sortiert die Ziffern von 0 bis 9 so, wie
+  sie auf der Wählscheibe eines alten Telefons angeordnet sind.
+</entry>
+<entry key="tab.dialDisk.comment.en_US">
+  The Dial Disk tab orders the digits from 0 to 9 in the same way as
+  they can be found on the dial disk of a classical ring phone.
+</entry>
+<entry key="tab.dialDisk.object.uchar-000030.align.x">0.75</entry>
+<entry key="tab.dialDisk.object.uchar-000030.align.y">0.93</entry>
+<entry key="tab.dialDisk.object.uchar-000031.align.x">0.93</entry>
+<entry key="tab.dialDisk.object.uchar-000031.align.y">0.25</entry>
+<entry key="tab.dialDisk.object.uchar-000032.align.x">0.75</entry>
+<entry key="tab.dialDisk.object.uchar-000032.align.y">0.07</entry>
+<entry key="tab.dialDisk.object.uchar-000033.align.x">0.50</entry>
+<entry key="tab.dialDisk.object.uchar-000033.align.y">0.00</entry>
+<entry key="tab.dialDisk.object.uchar-000034.align.x">0.25</entry>
+<entry key="tab.dialDisk.object.uchar-000034.align.y">0.07</entry>
+<entry key="tab.dialDisk.object.uchar-000035.align.x">0.07</entry>
+<entry key="tab.dialDisk.object.uchar-000035.align.y">0.25</entry>
+<entry key="tab.dialDisk.object.uchar-000036.align.x">0.00</entry>
+<entry key="tab.dialDisk.object.uchar-000036.align.y">0.50</entry>
+<entry key="tab.dialDisk.object.uchar-000037.align.x">0.07</entry>
+<entry key="tab.dialDisk.object.uchar-000037.align.y">0.75</entry>
+<entry key="tab.dialDisk.object.uchar-000038.align.x">0.25</entry>
+<entry key="tab.dialDisk.object.uchar-000038.align.y">0.93</entry>
+<entry key="tab.dialDisk.object.uchar-000039.align.x">0.50</entry>
+<entry key="tab.dialDisk.object.uchar-000039.align.y">1.00</entry>
+
+<!-- Digital Phone Pad Tab: -->
+
+<entry key="tab.digPhonePad.label.de">Tastentelefon</entry>
+<entry key="tab.digPhonePad.label.en_US">Digital Phone Pad</entry>
+<entry key="tab.digPhonePad.comment.de">
+  Die Tastenfeld-Ansicht sortiert die Ziffern von 0 bis 9 sowie die
+  beiden Sonderzeichen * und # so, wie sie auf dem Zahlenfeld eines
+  Tastentelefons angeordnet sind.
+</entry>
+<entry key="tab.digPhonePad.comment.en_US">
+  The Numerical Pad tab orders all digits from 0 to 9 as well as the
+  special characters * and # in the same way as they are ordered on a
+  phone with digital number pads.
+</entry>
+<entry key="tab.digPhonePad.object.uchar-000031.align.x">0.00</entry>
+<entry key="tab.digPhonePad.object.uchar-000031.align.y">0.00</entry>
+<entry key="tab.digPhonePad.object.uchar-000032.align.x">0.33</entry>
+<entry key="tab.digPhonePad.object.uchar-000032.align.y">0.00</entry>
+<entry key="tab.digPhonePad.object.uchar-000033.align.x">0.66</entry>
+<entry key="tab.digPhonePad.object.uchar-000033.align.y">0.00</entry>
+<entry key="tab.digPhonePad.object.uchar-000034.align.x">0.00</entry>
+<entry key="tab.digPhonePad.object.uchar-000034.align.y">0.33</entry>
+<entry key="tab.digPhonePad.object.uchar-000035.align.x">0.33</entry>
+<entry key="tab.digPhonePad.object.uchar-000035.align.y">0.33</entry>
+<entry key="tab.digPhonePad.object.uchar-000036.align.x">0.66</entry>
+<entry key="tab.digPhonePad.object.uchar-000036.align.y">0.33</entry>
+<entry key="tab.digPhonePad.object.uchar-000037.align.x">0.00</entry>
+<entry key="tab.digPhonePad.object.uchar-000037.align.y">0.66</entry>
+<entry key="tab.digPhonePad.object.uchar-000038.align.x">0.33</entry>
+<entry key="tab.digPhonePad.object.uchar-000038.align.y">0.66</entry>
+<entry key="tab.digPhonePad.object.uchar-000039.align.x">0.66</entry>
+<entry key="tab.digPhonePad.object.uchar-000039.align.y">0.66</entry>
+<entry key="tab.digPhonePad.object.uchar-00002a.align.x">0.00</entry>
+<entry key="tab.digPhonePad.object.uchar-00002a.align.y">1.00</entry>
+<entry key="tab.digPhonePad.object.uchar-000030.align.x">0.33</entry>
+<entry key="tab.digPhonePad.object.uchar-000030.align.y">1.00</entry>
+<entry key="tab.digPhonePad.object.uchar-000023.align.x">0.66</entry>
+<entry key="tab.digPhonePad.object.uchar-000023.align.y">1.00</entry>
+<!-- Mute Symbol -->
+<!--
+<entry key="tab.digPhonePad.object.uchar-00XXXX.align.x">1.00</entry>
+<entry key="tab.digPhonePad.object.uchar-00XXXX.align.y">0.00</entry>
+-->
+<entry key="tab.digPhonePad.object.uchar-002386.align.x">1.00</entry>
+<entry key="tab.digPhonePad.object.uchar-002386.align.y">0.33</entry>
+<!-- Dial Repeat Symbol -->
+<!--
+<entry key="tab.digPhonePad.object.uchar-00XXXX.align.x">1.00</entry>
+<entry key="tab.digPhonePad.object.uchar-00XXXX.align.y">0.66</entry>
+-->
+<entry key="tab.digPhonePad.object.uchar-000052.align.x">1.00</entry>
+<entry key="tab.digPhonePad.object.uchar-000052.align.y">1.00</entry>
+
+<!-- Keyboard Tab: -->
+
+<entry key="tab.keyboard.label.de">Tastatur</entry>
+<entry key="tab.keyboard.label.en_US">Keyboard</entry>
+<entry key="tab.keyboard.comment.de">
+  Die Tastatur-Ansicht sortiert die Buchstaben und Ziffern so, wie sie
+  auf einer deutschsprachigen Tastatur angeordnet sind.
+</entry>
+<entry key="tab.keyboard.comment.en_US">
+  The Keyboard tab orders letters, digits and some special characters
+  in the same way as they can be found on a keyboard with German
+  layout.
+</entry>
+<entry key="tab.keyboard.object.uchar-000031.align.x">0.066</entry>
+<entry key="tab.keyboard.object.uchar-000031.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000032.align.x">0.133</entry>
+<entry key="tab.keyboard.object.uchar-000032.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000033.align.x">0.200</entry>
+<entry key="tab.keyboard.object.uchar-000033.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000034.align.x">0.266</entry>
+<entry key="tab.keyboard.object.uchar-000034.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000035.align.x">0.333</entry>
+<entry key="tab.keyboard.object.uchar-000035.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000036.align.x">0.400</entry>
+<entry key="tab.keyboard.object.uchar-000036.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000037.align.x">0.466</entry>
+<entry key="tab.keyboard.object.uchar-000037.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000038.align.x">0.533</entry>
+<entry key="tab.keyboard.object.uchar-000038.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000039.align.x">0.600</entry>
+<entry key="tab.keyboard.object.uchar-000039.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000030.align.x">0.666</entry>
+<entry key="tab.keyboard.object.uchar-000030.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-0000df.align.x">0.733</entry>
+<entry key="tab.keyboard.object.uchar-0000df.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000027.align.x">0.800</entry>
+<entry key="tab.keyboard.object.uchar-000027.align.y">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000051.align.x">0.100</entry>
+<entry key="tab.keyboard.object.uchar-000051.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-000057.align.x">0.166</entry>
+<entry key="tab.keyboard.object.uchar-000057.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-000045.align.x">0.233</entry>
+<entry key="tab.keyboard.object.uchar-000045.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-000052.align.x">0.300</entry>
+<entry key="tab.keyboard.object.uchar-000052.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-000054.align.x">0.366</entry>
+<entry key="tab.keyboard.object.uchar-000054.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-00005a.align.x">0.433</entry>
+<entry key="tab.keyboard.object.uchar-00005a.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-000055.align.x">0.500</entry>
+<entry key="tab.keyboard.object.uchar-000055.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-000049.align.x">0.566</entry>
+<entry key="tab.keyboard.object.uchar-000049.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-00004f.align.x">0.633</entry>
+<entry key="tab.keyboard.object.uchar-00004f.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-000050.align.x">0.700</entry>
+<entry key="tab.keyboard.object.uchar-000050.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-0000dc.align.x">0.766</entry>
+<entry key="tab.keyboard.object.uchar-0000dc.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-00002b.align.x">0.833</entry>
+<entry key="tab.keyboard.object.uchar-00002b.align.y">0.433</entry>
+<entry key="tab.keyboard.object.uchar-000041.align.x">0.116</entry>
+<entry key="tab.keyboard.object.uchar-000041.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-000053.align.x">0.183</entry>
+<entry key="tab.keyboard.object.uchar-000053.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-000044.align.x">0.250</entry>
+<entry key="tab.keyboard.object.uchar-000044.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-000046.align.x">0.316</entry>
+<entry key="tab.keyboard.object.uchar-000046.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-000047.align.x">0.383</entry>
+<entry key="tab.keyboard.object.uchar-000047.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-000048.align.x">0.450</entry>
+<entry key="tab.keyboard.object.uchar-000048.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-00004a.align.x">0.516</entry>
+<entry key="tab.keyboard.object.uchar-00004a.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-00004b.align.x">0.583</entry>
+<entry key="tab.keyboard.object.uchar-00004b.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-00004c.align.x">0.650</entry>
+<entry key="tab.keyboard.object.uchar-00004c.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-0000d6.align.x">0.716</entry>
+<entry key="tab.keyboard.object.uchar-0000d6.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-0000c4.align.x">0.783</entry>
+<entry key="tab.keyboard.object.uchar-0000c4.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-000023.align.x">0.850</entry>
+<entry key="tab.keyboard.object.uchar-000023.align.y">0.566</entry>
+<entry key="tab.keyboard.object.uchar-00003c.align.x">0.083</entry>
+<entry key="tab.keyboard.object.uchar-00003c.align.y">0.700</entry>
+<entry key="tab.keyboard.object.uchar-000059.align.x">0.150</entry>
+<entry key="tab.keyboard.object.uchar-000059.align.y">0.700</entry>
+<entry key="tab.keyboard.object.uchar-000058.align.x">0.216</entry>
+<entry key="tab.keyboard.object.uchar-000058.align.y">0.700</entry>
+<entry key="tab.keyboard.object.uchar-000043.align.x">0.283</entry>
+<entry key="tab.keyboard.object.uchar-000043.align.y">0.700</entry>
+<entry key="tab.keyboard.object.uchar-000056.align.x">0.350</entry>
+<entry key="tab.keyboard.object.uchar-000056.align.y">0.700</entry>
+<entry key="tab.keyboard.object.uchar-000042.align.x">0.416</entry>
+<entry key="tab.keyboard.object.uchar-000042.align.y">0.700</entry>
+<entry key="tab.keyboard.object.uchar-00004e.align.x">0.483</entry>
+<entry key="tab.keyboard.object.uchar-00004e.align.y">0.700</entry>
+<entry key="tab.keyboard.object.uchar-00004d.align.x">0.550</entry>
+<entry key="tab.keyboard.object.uchar-00004d.align.y">0.700</entry>
+<entry key="tab.keyboard.object.uchar-00002c.align.x">0.616</entry>
+<entry key="tab.keyboard.object.uchar-00002c.align.y">0.700</entry>
+<entry key="tab.keyboard.object.uchar-00002e.align.x">0.683</entry>
+<entry key="tab.keyboard.object.uchar-00002e.align.y">0.700</entry>
+<entry key="tab.keyboard.object.uchar-00002d.align.x">0.750</entry>
+<entry key="tab.keyboard.object.uchar-00002d.align.y">0.700</entry>
+
+<!-- Capital Letters Tab: -->
+
+<entry key="tab.capitalLetters.label.de">Großbuchstaben</entry>
+<entry key="tab.capitalLetters.label.en_US">Capital Letters</entry>
+<entry key="tab.capitalLetters.comment.de">
+  Die Großbuchstaben-Ansicht sortiert Großbuchstaben in alphabetischer
+  Reihenfolge.
+</entry>
+<entry key="tab.capitalLetters.comment.en_US">
+  The Capital Letters tab orders capital letters in alphabetic order.
+</entry>
+<entry key="tab.capitalLetters.object.uchar-000041.align.x">0.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000041.align.y">0.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000042.align.x">0.20</entry>
+<entry key="tab.capitalLetters.object.uchar-000042.align.y">0.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000043.align.x">0.40</entry>
+<entry key="tab.capitalLetters.object.uchar-000043.align.y">0.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000044.align.x">0.60</entry>
+<entry key="tab.capitalLetters.object.uchar-000044.align.y">0.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000045.align.x">0.80</entry>
+<entry key="tab.capitalLetters.object.uchar-000045.align.y">0.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000046.align.x">1.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000046.align.y">0.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000047.align.x">0.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000047.align.y">0.25</entry>
+<entry key="tab.capitalLetters.object.uchar-000048.align.x">0.20</entry>
+<entry key="tab.capitalLetters.object.uchar-000048.align.y">0.25</entry>
+<entry key="tab.capitalLetters.object.uchar-000049.align.x">0.40</entry>
+<entry key="tab.capitalLetters.object.uchar-000049.align.y">0.25</entry>
+<entry key="tab.capitalLetters.object.uchar-00004a.align.x">0.60</entry>
+<entry key="tab.capitalLetters.object.uchar-00004a.align.y">0.25</entry>
+<entry key="tab.capitalLetters.object.uchar-00004b.align.x">0.80</entry>
+<entry key="tab.capitalLetters.object.uchar-00004b.align.y">0.25</entry>
+<entry key="tab.capitalLetters.object.uchar-00004c.align.x">1.00</entry>
+<entry key="tab.capitalLetters.object.uchar-00004c.align.y">0.25</entry>
+<entry key="tab.capitalLetters.object.uchar-00004d.align.x">0.00</entry>
+<entry key="tab.capitalLetters.object.uchar-00004d.align.y">0.50</entry>
+<entry key="tab.capitalLetters.object.uchar-00004e.align.x">0.20</entry>
+<entry key="tab.capitalLetters.object.uchar-00004e.align.y">0.50</entry>
+<entry key="tab.capitalLetters.object.uchar-00004f.align.x">0.40</entry>
+<entry key="tab.capitalLetters.object.uchar-00004f.align.y">0.50</entry>
+<entry key="tab.capitalLetters.object.uchar-000050.align.x">0.60</entry>
+<entry key="tab.capitalLetters.object.uchar-000050.align.y">0.50</entry>
+<entry key="tab.capitalLetters.object.uchar-000051.align.x">0.80</entry>
+<entry key="tab.capitalLetters.object.uchar-000051.align.y">0.50</entry>
+<entry key="tab.capitalLetters.object.uchar-000052.align.x">1.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000052.align.y">0.50</entry>
+<entry key="tab.capitalLetters.object.uchar-000053.align.x">0.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000053.align.y">0.75</entry>
+<entry key="tab.capitalLetters.object.uchar-000054.align.x">0.20</entry>
+<entry key="tab.capitalLetters.object.uchar-000054.align.y">0.75</entry>
+<entry key="tab.capitalLetters.object.uchar-000055.align.x">0.40</entry>
+<entry key="tab.capitalLetters.object.uchar-000055.align.y">0.75</entry>
+<entry key="tab.capitalLetters.object.uchar-000056.align.x">0.60</entry>
+<entry key="tab.capitalLetters.object.uchar-000056.align.y">0.75</entry>
+<entry key="tab.capitalLetters.object.uchar-000057.align.x">0.80</entry>
+<entry key="tab.capitalLetters.object.uchar-000057.align.y">0.75</entry>
+<entry key="tab.capitalLetters.object.uchar-000058.align.x">1.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000058.align.y">0.75</entry>
+<entry key="tab.capitalLetters.object.uchar-000059.align.x">0.00</entry>
+<entry key="tab.capitalLetters.object.uchar-000059.align.y">1.00</entry>
+<entry key="tab.capitalLetters.object.uchar-00005a.align.x">0.20</entry>
+<entry key="tab.capitalLetters.object.uchar-00005a.align.y">1.00</entry>
+<entry key="tab.capitalLetters.object.uchar-0000c4.align.x">0.40</entry>
+<entry key="tab.capitalLetters.object.uchar-0000c4.align.y">1.00</entry>
+<entry key="tab.capitalLetters.object.uchar-0000d6.align.x">0.60</entry>
+<entry key="tab.capitalLetters.object.uchar-0000d6.align.y">1.00</entry>
+<entry key="tab.capitalLetters.object.uchar-0000dc.align.x">0.80</entry>
+<entry key="tab.capitalLetters.object.uchar-0000dc.align.y">1.00</entry>
+<entry key="tab.capitalLetters.object.str-capital-szlig.align.x">1.00</entry>
+<entry key="tab.capitalLetters.object.str-capital-szlig.align.y">1.00</entry>
+
+<!-- Small Letters Tab: -->
+
+<entry key="tab.smallLetters.label.de">Kleinbuchstaben</entry>
+<entry key="tab.smallLetters.label.en_US">Small Letters</entry>
+<entry key="tab.smallLetters.comment.de">
+  Die Kleinbuchstaben-Ansicht sortiert Kleinbuchstaben in alphabetischer
+  Reihenfolge.
+</entry>
+<entry key="tab.smallLetters.comment.en_US">
+  The Small Letters tab orders small letters in alphabetic order.
+</entry>
+<entry key="tab.smallLetters.object.uchar-000061.align.x">0.00</entry>
+<entry key="tab.smallLetters.object.uchar-000061.align.y">0.00</entry>
+<entry key="tab.smallLetters.object.uchar-000062.align.x">0.20</entry>
+<entry key="tab.smallLetters.object.uchar-000062.align.y">0.00</entry>
+<entry key="tab.smallLetters.object.uchar-000063.align.x">0.40</entry>
+<entry key="tab.smallLetters.object.uchar-000063.align.y">0.00</entry>
+<entry key="tab.smallLetters.object.uchar-000064.align.x">0.60</entry>
+<entry key="tab.smallLetters.object.uchar-000064.align.y">0.00</entry>
+<entry key="tab.smallLetters.object.uchar-000065.align.x">0.80</entry>
+<entry key="tab.smallLetters.object.uchar-000065.align.y">0.00</entry>
+<entry key="tab.smallLetters.object.uchar-000066.align.x">1.00</entry>
+<entry key="tab.smallLetters.object.uchar-000066.align.y">0.00</entry>
+<entry key="tab.smallLetters.object.uchar-000067.align.x">0.00</entry>
+<entry key="tab.smallLetters.object.uchar-000067.align.y">0.25</entry>
+<entry key="tab.smallLetters.object.uchar-000068.align.x">0.20</entry>
+<entry key="tab.smallLetters.object.uchar-000068.align.y">0.25</entry>
+<entry key="tab.smallLetters.object.uchar-000069.align.x">0.40</entry>
+<entry key="tab.smallLetters.object.uchar-000069.align.y">0.25</entry>
+<entry key="tab.smallLetters.object.uchar-00006a.align.x">0.60</entry>
+<entry key="tab.smallLetters.object.uchar-00006a.align.y">0.25</entry>
+<entry key="tab.smallLetters.object.uchar-00006b.align.x">0.80</entry>
+<entry key="tab.smallLetters.object.uchar-00006b.align.y">0.25</entry>
+<entry key="tab.smallLetters.object.uchar-00006c.align.x">1.00</entry>
+<entry key="tab.smallLetters.object.uchar-00006c.align.y">0.25</entry>
+<entry key="tab.smallLetters.object.uchar-00006d.align.x">0.00</entry>
+<entry key="tab.smallLetters.object.uchar-00006d.align.y">0.50</entry>
+<entry key="tab.smallLetters.object.uchar-00006e.align.x">0.20</entry>
+<entry key="tab.smallLetters.object.uchar-00006e.align.y">0.50</entry>
+<entry key="tab.smallLetters.object.uchar-00006f.align.x">0.40</entry>
+<entry key="tab.smallLetters.object.uchar-00006f.align.y">0.50</entry>
+<entry key="tab.smallLetters.object.uchar-000070.align.x">0.60</entry>
+<entry key="tab.smallLetters.object.uchar-000070.align.y">0.50</entry>
+<entry key="tab.smallLetters.object.uchar-000071.align.x">0.80</entry>
+<entry key="tab.smallLetters.object.uchar-000071.align.y">0.50</entry>
+<entry key="tab.smallLetters.object.uchar-000072.align.x">1.00</entry>
+<entry key="tab.smallLetters.object.uchar-000072.align.y">0.50</entry>
+<entry key="tab.smallLetters.object.uchar-000073.align.x">0.00</entry>
+<entry key="tab.smallLetters.object.uchar-000073.align.y">0.75</entry>
+<entry key="tab.smallLetters.object.uchar-000074.align.x">0.20</entry>
+<entry key="tab.smallLetters.object.uchar-000074.align.y">0.75</entry>
+<entry key="tab.smallLetters.object.uchar-000075.align.x">0.40</entry>
+<entry key="tab.smallLetters.object.uchar-000075.align.y">0.75</entry>
+<entry key="tab.smallLetters.object.uchar-000076.align.x">0.60</entry>
+<entry key="tab.smallLetters.object.uchar-000076.align.y">0.75</entry>
+<entry key="tab.smallLetters.object.uchar-000077.align.x">0.80</entry>
+<entry key="tab.smallLetters.object.uchar-000077.align.y">0.75</entry>
+<entry key="tab.smallLetters.object.uchar-000078.align.x">1.00</entry>
+<entry key="tab.smallLetters.object.uchar-000078.align.y">0.75</entry>
+<entry key="tab.smallLetters.object.uchar-000079.align.x">0.00</entry>
+<entry key="tab.smallLetters.object.uchar-000079.align.y">1.00</entry>
+<entry key="tab.smallLetters.object.uchar-00007a.align.x">0.20</entry>
+<entry key="tab.smallLetters.object.uchar-00007a.align.y">1.00</entry>
+<entry key="tab.smallLetters.object.uchar-0000e4.align.x">0.40</entry>
+<entry key="tab.smallLetters.object.uchar-0000e4.align.y">1.00</entry>
+<entry key="tab.smallLetters.object.uchar-0000f6.align.x">0.60</entry>
+<entry key="tab.smallLetters.object.uchar-0000f6.align.y">1.00</entry>
+<entry key="tab.smallLetters.object.uchar-0000fc.align.x">0.80</entry>
+<entry key="tab.smallLetters.object.uchar-0000fc.align.y">1.00</entry>
+<entry key="tab.smallLetters.object.uchar-0000df.align.x">1.00</entry>
+<entry key="tab.smallLetters.object.uchar-0000df.align.y">1.00</entry>
+
+<!-- Geometric Tab: -->
+
+<entry key="tab.geometric.label.de">Geometrisch</entry>
+<entry key="tab.geometric.label.en_US">Geometric</entry>
+<entry key="tab.geometric.comment.de">
+  Die geometrische Ansicht sortiert die Zeichen nach der Ähnlichkeit
+  in ihrer geometrischen Form bezüglich der Großbuchstaben.  Man
+  beachte, dass das Empfinden darüber, welche Buchstaben ähnlich
+  aussehen, sehr stark von der Art der geometrischen Abstraktion
+  abhängt.  So können die Ziffer 3 und der Buchstabe M nur dann als
+  ähnlich empfunden werden, wenn man von der Orientierung abstrahiert,
+  also Rotation von Buchstaben als die Form nicht verändernd
+  betrachtet.  In diesem Sinne ist die hier gezeigte Sortierung ein
+  Vorschlag, der von der individuellen Empfindung der Ähnlichkeit
+  abweichen kann.
+</entry>
+<entry key="tab.geometric.comment.en_US">
+  The Geometric tab orders characters according to their similarity
+  with respect to their geometric shape, orienting upon capital
+  letters.  Note that the impression of which letters have similar
+  shape heavily depends on the kind of geometric abstraction.  For
+  example, the digit 3 and the letter M may be considered similar
+  only, if orientation is not considered, that is, if rotating a
+  character does not change its shape.  Consequently, the ordering of
+  characters shown on this tab should be considered as a pure
+  suggestion, which may differ from one's individual sense of
+  similarity.
+</entry>
+<entry key="tab.geometric.object.uchar-000031.align.x">0.00</entry>
+<entry key="tab.geometric.object.uchar-000031.align.y">0.00</entry>
+<entry key="tab.geometric.object.uchar-000049.align.x">0.10</entry>
+<entry key="tab.geometric.object.uchar-000049.align.y">0.00</entry>
+<entry key="tab.geometric.object.uchar-00004a.align.x">0.20</entry>
+<entry key="tab.geometric.object.uchar-00004a.align.y">0.00</entry>
+<entry key="tab.geometric.object.uchar-00004c.align.x">0.30</entry>
+<entry key="tab.geometric.object.uchar-00004c.align.y">0.00</entry>
+<entry key="tab.geometric.object.uchar-000037.align.x">0.40</entry>
+<entry key="tab.geometric.object.uchar-000037.align.y">0.00</entry>
+<entry key="tab.geometric.object.uchar-000056.align.x">0.50</entry>
+<entry key="tab.geometric.object.uchar-000056.align.y">0.00</entry>
+<entry key="tab.geometric.object.uchar-000059.align.x">0.60</entry>
+<entry key="tab.geometric.object.uchar-000059.align.y">0.00</entry>
+<entry key="tab.geometric.object.uchar-000058.align.x">0.70</entry>
+<entry key="tab.geometric.object.uchar-000058.align.y">0.00</entry>
+<entry key="tab.geometric.object.uchar-00004b.align.x">0.80</entry>
+<entry key="tab.geometric.object.uchar-00004b.align.y">0.00</entry>
+<entry key="tab.geometric.object.uchar-000041.align.x">0.90</entry>
+<entry key="tab.geometric.object.uchar-000041.align.y">0.00</entry>
+<entry key="tab.geometric.object.uchar-000034.align.x">1.00</entry>
+<entry key="tab.geometric.object.uchar-000034.align.y">0.00</entry>
+<entry key="tab.geometric.object.uchar-000054.align.x">0.00</entry>
+<entry key="tab.geometric.object.uchar-000054.align.y">0.25</entry>
+<entry key="tab.geometric.object.uchar-000048.align.x">0.10</entry>
+<entry key="tab.geometric.object.uchar-000048.align.y">0.25</entry>
+<entry key="tab.geometric.object.uchar-00004e.align.x">0.20</entry>
+<entry key="tab.geometric.object.uchar-00004e.align.y">0.25</entry>
+<entry key="tab.geometric.object.uchar-00004d.align.x">0.30</entry>
+<entry key="tab.geometric.object.uchar-00004d.align.y">0.25</entry>
+<entry key="tab.geometric.object.uchar-000057.align.x">0.40</entry>
+<entry key="tab.geometric.object.uchar-000057.align.y">0.25</entry>
+<entry key="tab.geometric.object.uchar-000045.align.x">0.50</entry>
+<entry key="tab.geometric.object.uchar-000045.align.y">0.25</entry>
+<entry key="tab.geometric.object.uchar-000033.align.x">0.60</entry>
+<entry key="tab.geometric.object.uchar-000033.align.y">0.25</entry>
+<entry key="tab.geometric.object.uchar-000046.align.x">0.70</entry>
+<entry key="tab.geometric.object.uchar-000046.align.y">0.25</entry>
+<entry key="tab.geometric.object.uchar-000053.align.x">0.00</entry>
+<entry key="tab.geometric.object.uchar-000053.align.y">0.50</entry>
+<entry key="tab.geometric.object.uchar-000035.align.x">0.10</entry>
+<entry key="tab.geometric.object.uchar-000035.align.y">0.50</entry>
+<entry key="tab.geometric.object.uchar-000032.align.x">0.20</entry>
+<entry key="tab.geometric.object.uchar-000032.align.y">0.50</entry>
+<entry key="tab.geometric.object.uchar-00005a.align.x">0.30</entry>
+<entry key="tab.geometric.object.uchar-00005a.align.y">0.50</entry>
+<entry key="tab.geometric.object.uchar-000038.align.x">0.00</entry>
+<entry key="tab.geometric.object.uchar-000038.align.y">0.75</entry>
+<entry key="tab.geometric.object.uchar-000042.align.x">0.10</entry>
+<entry key="tab.geometric.object.uchar-000042.align.y">0.75</entry>
+<entry key="tab.geometric.object.uchar-000036.align.x">0.20</entry>
+<entry key="tab.geometric.object.uchar-000036.align.y">0.75</entry>
+<entry key="tab.geometric.object.uchar-000039.align.x">0.30</entry>
+<entry key="tab.geometric.object.uchar-000039.align.y">0.75</entry>
+<entry key="tab.geometric.object.uchar-000050.align.x">0.40</entry>
+<entry key="tab.geometric.object.uchar-000050.align.y">0.75</entry>
+<entry key="tab.geometric.object.uchar-000052.align.x">0.50</entry>
+<entry key="tab.geometric.object.uchar-000052.align.y">0.75</entry>
+<entry key="tab.geometric.object.uchar-000051.align.x">0.00</entry>
+<entry key="tab.geometric.object.uchar-000051.align.y">1.00</entry>
+<entry key="tab.geometric.object.uchar-00004f.align.x">0.10</entry>
+<entry key="tab.geometric.object.uchar-00004f.align.y">1.00</entry>
+<entry key="tab.geometric.object.uchar-000043.align.x">0.20</entry>
+<entry key="tab.geometric.object.uchar-000043.align.y">1.00</entry>
+<entry key="tab.geometric.object.uchar-000030.align.x">0.30</entry>
+<entry key="tab.geometric.object.uchar-000030.align.y">1.00</entry>
+<entry key="tab.geometric.object.uchar-000044.align.x">0.40</entry>
+<entry key="tab.geometric.object.uchar-000044.align.y">1.00</entry>
+<entry key="tab.geometric.object.uchar-000047.align.x">0.50</entry>
+<entry key="tab.geometric.object.uchar-000047.align.y">1.00</entry>
+<entry key="tab.geometric.object.uchar-000055.align.x">0.60</entry>
+<entry key="tab.geometric.object.uchar-000055.align.y">1.00</entry>
+
+<!-- Vowels Tab: -->
+
+<entry key="tab.vowels.label.de">Vokalkreis</entry>
+<entry key="tab.vowels.label.en_US">Circle of Vowels</entry>
+<entry key="tab.vowels.comment.de">
+  Der Vokalkreis sortiert in der deutschen Sprache enthaltenen Vokale
+  auf einem Kreis so, dass sie mit einer zyklischen, fließenden
+  Bewegung ineinander übergehend mit Lippen und Zunge geformt werden
+  können.  Die Anordnung kann als Grundlage zum Obertonsingen
+  verwendet werden.  Das an ein umgedrehtes C erinnernde phonetische
+  Zeichen „&#390;” symbolisiert das offene „O” (wie im Wort „offen”)
+  im Gegensatz zum geschlossenen „O” (wie im Wort „Oma”), welches
+  durch den lateinischen Buchstaben „O” dargestellt ist.
+</entry>
+<entry key="tab.vowels.comment.en_US">
+  The Circle of Vowles tab orders vowels of the German language in a
+  circle, such that they can be formed in this order with a cyclic,
+  fluent movement of lips and tongue.  The schema is useful for
+  overtone singing.  The upside-down letter “C” is actually the
+  phonetic symbol “&#390;” that is used to represent the open “O” (as
+  in the word “often”), in contrast to the closed “O”, which is
+  notated as the ordinary latin letter “O”.
+</entry>
+<entry key="tab.vowels.object.uchar-0000fc.align.x">0.50</entry>
+<entry key="tab.vowels.object.uchar-0000fc.align.y">0.00</entry>
+<entry key="tab.vowels.object.uchar-000069.align.x">0.85</entry>
+<entry key="tab.vowels.object.uchar-000069.align.y">0.15</entry>
+<entry key="tab.vowels.object.uchar-000065.align.x">1.00</entry>
+<entry key="tab.vowels.object.uchar-000065.align.y">0.50</entry>
+<entry key="tab.vowels.object.uchar-0000e4.align.x">0.85</entry>
+<entry key="tab.vowels.object.uchar-0000e4.align.y">0.85</entry>
+<entry key="tab.vowels.object.uchar-000061.align.x">0.50</entry>
+<entry key="tab.vowels.object.uchar-000061.align.y">1.00</entry>
+<entry key="tab.vowels.object.uchar-000186.align.x">0.15</entry>
+<entry key="tab.vowels.object.uchar-000186.align.y">0.85</entry>
+<entry key="tab.vowels.object.uchar-00006f.align.x">0.00</entry>
+<entry key="tab.vowels.object.uchar-00006f.align.y">0.50</entry>
+<entry key="tab.vowels.object.uchar-000075.align.x">0.15</entry>
+<entry key="tab.vowels.object.uchar-000075.align.y">0.15</entry>
+
+<!-- Clock Face Tab: -->
+
+<entry key="tab.clockFace.label.de">Ziffernblatt</entry>
+<entry key="tab.clockFace.label.en_US">Clockface</entry>
+<entry key="tab.clockFace.comment.de">
+  Das Ziffernblatt sortiert die Zahlen von 1 bis 12 wie auf einer
+  analogen Uhr.
+</entry>
+<entry key="tab.clockFace.comment.en_US">
+  The Clockface tab places the numbers from 1 to 12 just like on a
+  clockface.
+</entry>
+<entry key="tab.clockFace.object.str-hour-1.align.x">0.75</entry>
+<entry key="tab.clockFace.object.str-hour-1.align.y">0.07</entry>
+<entry key="tab.clockFace.object.str-hour-2.align.x">0.93</entry>
+<entry key="tab.clockFace.object.str-hour-2.align.y">0.25</entry>
+<entry key="tab.clockFace.object.str-hour-3.align.x">1.00</entry>
+<entry key="tab.clockFace.object.str-hour-3.align.y">0.50</entry>
+<entry key="tab.clockFace.object.str-hour-4.align.x">0.93</entry>
+<entry key="tab.clockFace.object.str-hour-4.align.y">0.75</entry>
+<entry key="tab.clockFace.object.str-hour-5.align.x">0.75</entry>
+<entry key="tab.clockFace.object.str-hour-5.align.y">0.93</entry>
+<entry key="tab.clockFace.object.str-hour-6.align.x">0.50</entry>
+<entry key="tab.clockFace.object.str-hour-6.align.y">1.00</entry>
+<entry key="tab.clockFace.object.str-hour-7.align.x">0.25</entry>
+<entry key="tab.clockFace.object.str-hour-7.align.y">0.93</entry>
+<entry key="tab.clockFace.object.str-hour-8.align.x">0.07</entry>
+<entry key="tab.clockFace.object.str-hour-8.align.y">0.75</entry>
+<entry key="tab.clockFace.object.str-hour-9.align.x">0.00</entry>
+<entry key="tab.clockFace.object.str-hour-9.align.y">0.50</entry>
+<entry key="tab.clockFace.object.str-hour-10.align.x">0.07</entry>
+<entry key="tab.clockFace.object.str-hour-10.align.y">0.25</entry>
+<entry key="tab.clockFace.object.str-hour-11.align.x">0.25</entry>
+<entry key="tab.clockFace.object.str-hour-11.align.y">0.07</entry>
+<entry key="tab.clockFace.object.str-hour-12.align.x">0.50</entry>
+<entry key="tab.clockFace.object.str-hour-12.align.y">0.00</entry>
+
+<!-- Quint Circle Tab: -->
+
+<entry key="tab.quintCircle.label.de">Quintenzirkel</entry>
+<entry key="tab.quintCircle.label.en_US">Quint Circle</entry>
+<entry key="tab.quintCircle.comment.de">
+  Der Quintenzirkel mit allen 12 Dur-Tonarten, sortiert nach
+  Quintintervallen.
+</entry>
+<entry key="tab.quintCircle.comment.en_US">
+  The Quint Circle with all 12 major scales, ordered in quint
+  intervals.
+</entry>
+<entry key="tab.quintCircle.object.str-music-key-C.align.x">0.50</entry>
+<entry key="tab.quintCircle.object.str-music-key-C.align.y">0.00</entry>
+<entry key="tab.quintCircle.object.str-music-key-G.align.x">0.75</entry>
+<entry key="tab.quintCircle.object.str-music-key-G.align.y">0.07</entry>
+<entry key="tab.quintCircle.object.str-music-key-D.align.x">0.93</entry>
+<entry key="tab.quintCircle.object.str-music-key-D.align.y">0.25</entry>
+<entry key="tab.quintCircle.object.str-music-key-A.align.x">1.00</entry>
+<entry key="tab.quintCircle.object.str-music-key-A.align.y">0.50</entry>
+<entry key="tab.quintCircle.object.str-music-key-E.align.x">0.93</entry>
+<entry key="tab.quintCircle.object.str-music-key-E.align.y">0.75</entry>
+<entry key="tab.quintCircle.object.str-music-key-H.align.x">0.75</entry>
+<entry key="tab.quintCircle.object.str-music-key-H.align.y">0.93</entry>
+<entry key="tab.quintCircle.object.str-music-key-Gb.align.x">0.50</entry>
+<entry key="tab.quintCircle.object.str-music-key-Gb.align.y">1.00</entry>
+<entry key="tab.quintCircle.object.str-music-key-Db.align.x">0.25</entry>
+<entry key="tab.quintCircle.object.str-music-key-Db.align.y">0.93</entry>
+<entry key="tab.quintCircle.object.str-music-key-Ab.align.x">0.07</entry>
+<entry key="tab.quintCircle.object.str-music-key-Ab.align.y">0.75</entry>
+<entry key="tab.quintCircle.object.str-music-key-Eb.align.x">0.00</entry>
+<entry key="tab.quintCircle.object.str-music-key-Eb.align.y">0.50</entry>
+<entry key="tab.quintCircle.object.str-music-key-Bb.align.x">0.07</entry>
+<entry key="tab.quintCircle.object.str-music-key-Bb.align.y">0.25</entry>
+<entry key="tab.quintCircle.object.str-music-key-F.align.x">0.25</entry>
+<entry key="tab.quintCircle.object.str-music-key-F.align.y">0.07</entry>
+
+<!-- Months Tab: -->
+
+<entry key="tab.months.label.de">Monate</entry>
+<entry key="tab.months.label.en_US">Months</entry>
+<entry key="tab.months.comment.de">
+  Der Jahreskreis mit allen 12 Monaten.
+</entry>
+<entry key="tab.months.comment.en_US">
+  Course of the year with all 12 months.
+</entry>
+<entry key="tab.months.object.str-month-january.align.x">0.50</entry>
+<entry key="tab.months.object.str-month-january.align.y">0.00</entry>
+<entry key="tab.months.object.str-month-february.align.x">0.75</entry>
+<entry key="tab.months.object.str-month-february.align.y">0.07</entry>
+<entry key="tab.months.object.str-month-march.align.x">0.93</entry>
+<entry key="tab.months.object.str-month-march.align.y">0.25</entry>
+<entry key="tab.months.object.str-month-april.align.x">1.00</entry>
+<entry key="tab.months.object.str-month-april.align.y">0.50</entry>
+<entry key="tab.months.object.str-month-may.align.x">0.93</entry>
+<entry key="tab.months.object.str-month-may.align.y">0.75</entry>
+<entry key="tab.months.object.str-month-june.align.x">0.75</entry>
+<entry key="tab.months.object.str-month-june.align.y">0.93</entry>
+<entry key="tab.months.object.str-month-july.align.x">0.50</entry>
+<entry key="tab.months.object.str-month-july.align.y">1.00</entry>
+<entry key="tab.months.object.str-month-august.align.x">0.25</entry>
+<entry key="tab.months.object.str-month-august.align.y">0.93</entry>
+<entry key="tab.months.object.str-month-september.align.x">0.07</entry>
+<entry key="tab.months.object.str-month-september.align.y">0.75</entry>
+<entry key="tab.months.object.str-month-october.align.x">0.00</entry>
+<entry key="tab.months.object.str-month-october.align.y">0.50</entry>
+<entry key="tab.months.object.str-month-november.align.x">0.07</entry>
+<entry key="tab.months.object.str-month-november.align.y">0.25</entry>
+<entry key="tab.months.object.str-month-december.align.x">0.25</entry>
+<entry key="tab.months.object.str-month-december.align.y">0.07</entry>
+
+<!-- Days of Week Tab: -->
+
+<entry key="tab.daysOfWeek.label.de">Wochentage</entry>
+<entry key="tab.daysOfWeek.label.en_US">Days of Week</entry>
+<entry key="tab.daysOfWeek.comment.de">
+  Alle 7 Tage der Woche.
+</entry>
+<entry key="tab.daysOfWeek.comment.en_US">
+  All 7 days of the week.
+</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-monday.align.x">0.500</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-monday.align.y">0.000</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-tuesday.align.x">0.891</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-tuesday.align.y">0.188</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-wednesday.align.x">0.987</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-wednesday.align.y">0.611</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-thirsday.align.x">0.717</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-thirsday.align.y">0.950</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-friday.align.x">0.283</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-friday.align.y">0.950</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-saturday.align.x">0.013</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-saturday.align.y">0.611</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-sunday.align.x">0.109</entry>
+<entry key="tab.daysOfWeek.object.str-dayofweek-sunday.align.y">0.188</entry>
+
+<!-- Calc Pad Tab: -->
+
+<entry key="tab.calcPad.label.de">Taschenrechner</entry>
+<entry key="tab.calcPad.label.en_US">Calculator Pad</entry>
+<entry key="tab.calcPad.comment.de">
+  Ziffernblock, wie er auf einer Computer-Tastatur oder einem
+  Taschenrechner üblich ist.
+</entry>
+<entry key="tab.calcPad.comment.en_US">
+  Numerical pad as on a computer keyboard or desktop calculator.
+</entry>
+<entry key="tab.calcPad.object.uchar-000030.align.x">0.333</entry>
+<entry key="tab.calcPad.object.uchar-000030.align.y">1.000</entry>
+<entry key="tab.calcPad.object.uchar-00002c.align.x">0.666</entry>
+<entry key="tab.calcPad.object.uchar-00002c.align.y">1.000</entry>
+<entry key="tab.calcPad.object.uchar-000031.align.x">0.000</entry>
+<entry key="tab.calcPad.object.uchar-000031.align.y">0.750</entry>
+<entry key="tab.calcPad.object.uchar-000032.align.x">0.333</entry>
+<entry key="tab.calcPad.object.uchar-000032.align.y">0.750</entry>
+<entry key="tab.calcPad.object.uchar-000033.align.x">0.666</entry>
+<entry key="tab.calcPad.object.uchar-000033.align.y">0.750</entry>
+<entry key="tab.calcPad.object.uchar-000034.align.x">0.000</entry>
+<entry key="tab.calcPad.object.uchar-000034.align.y">0.500</entry>
+<entry key="tab.calcPad.object.uchar-000035.align.x">0.333</entry>
+<entry key="tab.calcPad.object.uchar-000035.align.y">0.500</entry>
+<entry key="tab.calcPad.object.uchar-000036.align.x">0.666</entry>
+<entry key="tab.calcPad.object.uchar-000036.align.y">0.500</entry>
+<entry key="tab.calcPad.object.uchar-000037.align.x">0.000</entry>
+<entry key="tab.calcPad.object.uchar-000037.align.y">0.250</entry>
+<entry key="tab.calcPad.object.uchar-000038.align.x">0.333</entry>
+<entry key="tab.calcPad.object.uchar-000038.align.y">0.250</entry>
+<entry key="tab.calcPad.object.uchar-000039.align.x">0.666</entry>
+<entry key="tab.calcPad.object.uchar-000039.align.y">0.250</entry>
+<entry key="tab.calcPad.object.uchar-00002f.align.x">0.333</entry>
+<entry key="tab.calcPad.object.uchar-00002f.align.y">0.000</entry>
+<entry key="tab.calcPad.object.uchar-00002a.align.x">0.666</entry>
+<entry key="tab.calcPad.object.uchar-00002a.align.y">0.000</entry>
+<entry key="tab.calcPad.object.uchar-00002d.align.x">1.000</entry>
+<entry key="tab.calcPad.object.uchar-00002d.align.y">0.000</entry>
+<entry key="tab.calcPad.object.uchar-00002b.align.x">1.000</entry>
+<entry key="tab.calcPad.object.uchar-00002b.align.y">0.375</entry>
+<entry key="tab.calcPad.object.uchar-0023ce.align.x">1.000</entry>
+<entry key="tab.calcPad.object.uchar-0023ce.align.y">0.875</entry>
+
+<!-- TODO: -->
+
+<!-- Phonetic Tab: -->
+<!--
+<entry key="tab.phonetic.label.de">Phonetisch</entry>
+<entry key="tab.phonetic.label.en_US">Phonetic</entry>
+<entry key="tab.phonetic.comment.de">
+  Die phonetische Ansicht sortiert die Zeichen nach der Ähnlichkeit
+  ihres Klangs.  Man beachte, dass das Empfinden darüber, welche
+  Buchstaben ähnlich klingen, sehr stark von der Art der akustischen
+  Abstraktion abhängt, je nachdem, welche klanglichen Anteile man
+  bewusst oder unterbewusst am deutlichsten empfindet.  Ferner ist für
+  manche Buchstaben keine eindeutige Zuordnung zu einem Laut möglich.
+  So kann der Buchstabe C beispielsweise, je nach syntaktischem
+  Kontext, wie ein K oder Z oder ß ausgesprochen werden, oder gar als
+  Bestandteil von ck oder ch oder sch auftreten.  Die Ziffern
+  bezeichnen, als Zahlen ausgesprochen, keine Laute, sondern Worte,
+  also Kombinationen von Lauten, so dass sich auch ihnen kein
+  eindeutiger Laut zuordnen lässt.  In diesem Sinne ist die hier
+  gezeigte Sortierung ein Vorschlag, der von der individuellen
+  Empfindung der Ähnlichkeit abweichen kann.
+</entry>
+<entry key="tab.phonetic.comment.en_US">[To be done.]</entry>
+-->
+
+<!-- Anatomic Tab: -->
+<!--
+<entry key="tab.anatomic.label.de">Anatomisch</entry>
+<entry key="tab.anatomic.label.en_US">Anatomic</entry>
+<entry key="tab.anatomic.comment.de">
+  Die anatomische Ansicht sortiert die Zeichen nach der Ähnlichkeit
+  ihrer Erzeugung, d.h. welche Muskeln aktiviert werden müssen, um den
+  jeweiligen Laut hervorzubringen.  Auch hier gelten die
+  Einschränkungen, die für die phonetische Ansicht genannt werden.
+  Die hiesige Einteilung stützt sich auf die klassische Taxonomie in
+  Labiale, Gutturale, usw.
+</entry>
+<entry key="tab.anatomic.comment.en_US">[To be done.]</entry>
+-->
+
+<!-- Learn Order Tab: -->
+<!--
+<entry key="tab.learnOrder.label.de">Erlernte Reihenfolge</entry>
+<entry key="tab.learnOrder.label.en_US">Learn Order</entry>
+<entry key="tab.learnOrder.comment.de">
+  Die Ansicht nach der Erlernten Reihenfolge sortiert die Zeichen
+  gemäß der zeitlichen Reihenfolge, in der sie beim Erlernen des
+  Lesens und Schreibens üblicherweise auftreten.  Dies hängt natürlich
+  vom verwendeten Schulbuch ab.  Außerdem kennen viele Kinder bereits
+  etliche Buchstaben, bevor sie in die Schule kommen.  Insofern ist
+  die Einteilung in dieser Ansicht nur bedingt sinnvoll.
+</entry>
+<entry key="tab.learnOrder.comment.en_US">[To be done.]</entry>
+-->
+
+<!-- Use Frequency Tab: -->
+<!--
+<entry key="tab.useFrequency.label.de">Verwendungshäufigkeit</entry>
+<entry key="tab.useFrequency.label.en_US">Use Frequency</entry>
+<entry key="tab.useFrequency.comment.de">
+  Die Ansicht nach der Verwendungshäufigkeit will die Zeichen gemäß
+  der Häufigkeit und damit ihrer Bedeutung nach sortieren.  Auch hier
+  ist die Einordnung überladener Buchstaben (z.B. das C)
+  problematisch, je nachdem, ob man mit Häufigkeit eine phonetische
+  oder die orthographische Häufigkeit meint.  Insofern ist auch diese
+  Ansicht nur bedingt sinnvoll.
+</entry>
+<entry key="tab.useFrequency.comment.en_US">[To be done.]</entry>
+-->
+
+
+<!-- Object-to-Object Mappings (e.g. for copying colors between lower
+     and upper case letters): -->
+
+<entry key="function.to-lower-case.label.en_US" >upper case to lower case</entry>
+<entry key="function.to-lower-case.comment.en_US" >upper case to lower case</entry>
+<entry key="function.to-lower-case.label.de" >Groß- zu Kleinbuchstaben</entry>
+<entry key="function.to-lower-case.comment.de" >Groß- zu Kleinbuchstaben</entry>
+<entry key="function.to-lower-case.map.uchar-000041.uchar-000061" />
+<entry key="function.to-lower-case.map.uchar-000042.uchar-000062" />
+<entry key="function.to-lower-case.map.uchar-000043.uchar-000063" />
+<entry key="function.to-lower-case.map.uchar-000044.uchar-000064" />
+<entry key="function.to-lower-case.map.uchar-000045.uchar-000065" />
+<entry key="function.to-lower-case.map.uchar-000046.uchar-000066" />
+<entry key="function.to-lower-case.map.uchar-000047.uchar-000067" />
+<entry key="function.to-lower-case.map.uchar-000048.uchar-000068" />
+<entry key="function.to-lower-case.map.uchar-000049.uchar-000069" />
+<entry key="function.to-lower-case.map.uchar-00004a.uchar-00006a" />
+<entry key="function.to-lower-case.map.uchar-00004b.uchar-00006b" />
+<entry key="function.to-lower-case.map.uchar-00004c.uchar-00006c" />
+<entry key="function.to-lower-case.map.uchar-00004d.uchar-00006d" />
+<entry key="function.to-lower-case.map.uchar-00004e.uchar-00006e" />
+<entry key="function.to-lower-case.map.uchar-00004f.uchar-00006f" />
+<entry key="function.to-lower-case.map.uchar-000050.uchar-000070" />
+<entry key="function.to-lower-case.map.uchar-000051.uchar-000071" />
+<entry key="function.to-lower-case.map.uchar-000052.uchar-000072" />
+<entry key="function.to-lower-case.map.uchar-000053.uchar-000073" />
+<entry key="function.to-lower-case.map.uchar-000054.uchar-000074" />
+<entry key="function.to-lower-case.map.uchar-000055.uchar-000075" />
+<entry key="function.to-lower-case.map.uchar-000056.uchar-000076" />
+<entry key="function.to-lower-case.map.uchar-000057.uchar-000077" />
+<entry key="function.to-lower-case.map.uchar-000058.uchar-000078" />
+<entry key="function.to-lower-case.map.uchar-000059.uchar-000079" />
+<entry key="function.to-lower-case.map.uchar-00005a.uchar-00007a" />
+<entry key="function.to-lower-case.map.uchar-0000c4.uchar-0000e4" />
+<entry key="function.to-lower-case.map.uchar-0000d6.uchar-0000f6" />
+<entry key="function.to-lower-case.map.uchar-0000dc.uchar-0000fc" />
+<entry key="function.to-lower-case.map.str-capital-szlig.uchar-0000df" />
+
+<entry key="function.to-upper-case.label.en_US" >lower case to upper case</entry>
+<entry key="function.to-upper-case.comment.en_US" >lower case to upper case</entry>
+<entry key="function.to-upper-case.label.de" >Klein- zu Großbuchstaben</entry>
+<entry key="function.to-upper-case.comment.de" >Klein- zu Großbuchstaben</entry>
+<entry key="function.to-upper-case.map.uchar-000061.uchar-000041" />
+<entry key="function.to-upper-case.map.uchar-000062.uchar-000042" />
+<entry key="function.to-upper-case.map.uchar-000063.uchar-000043" />
+<entry key="function.to-upper-case.map.uchar-000064.uchar-000044" />
+<entry key="function.to-upper-case.map.uchar-000065.uchar-000045" />
+<entry key="function.to-upper-case.map.uchar-000066.uchar-000046" />
+<entry key="function.to-upper-case.map.uchar-000067.uchar-000047" />
+<entry key="function.to-upper-case.map.uchar-000068.uchar-000048" />
+<entry key="function.to-upper-case.map.uchar-000069.uchar-000049" />
+<entry key="function.to-upper-case.map.uchar-00006a.uchar-00004a" />
+<entry key="function.to-upper-case.map.uchar-00006b.uchar-00004b" />
+<entry key="function.to-upper-case.map.uchar-00006c.uchar-00004c" />
+<entry key="function.to-upper-case.map.uchar-00006d.uchar-00004d" />
+<entry key="function.to-upper-case.map.uchar-00006e.uchar-00004e" />
+<entry key="function.to-upper-case.map.uchar-00006f.uchar-00004f" />
+<entry key="function.to-upper-case.map.uchar-000070.uchar-000050" />
+<entry key="function.to-upper-case.map.uchar-000071.uchar-000051" />
+<entry key="function.to-upper-case.map.uchar-000072.uchar-000052" />
+<entry key="function.to-upper-case.map.uchar-000073.uchar-000053" />
+<entry key="function.to-upper-case.map.uchar-000074.uchar-000054" />
+<entry key="function.to-upper-case.map.uchar-000075.uchar-000055" />
+<entry key="function.to-upper-case.map.uchar-000076.uchar-000056" />
+<entry key="function.to-upper-case.map.uchar-000077.uchar-000057" />
+<entry key="function.to-upper-case.map.uchar-000078.uchar-000058" />
+<entry key="function.to-upper-case.map.uchar-000079.uchar-000059" />
+<entry key="function.to-upper-case.map.uchar-00007a.uchar-00005a" />
+<entry key="function.to-upper-case.map.uchar-0000e4.uchar-0000c4" />
+<entry key="function.to-upper-case.map.uchar-0000f6.uchar-0000d6" />
+<entry key="function.to-upper-case.map.uchar-0000fc.uchar-0000dc" />
+<entry key="function.to-upper-case.map.uchar-0000df.str-capital-szlig" />
+
+<entry key="function.digit-to-hour.label.en_US" >digit to hour</entry>
+<entry key="function.digit-to-hour.comment.en_US" >digit to hour</entry>
+<entry key="function.digit-to-hour.label.de" >Ziffern zu Uhrzeiten</entry>
+<entry key="function.digit-to-hour.comment.de" >Ziffern zu Uhrzeiten</entry>
+<entry key="function.digit-to-hour.map.uchar-000031.str-hour-1" />
+<entry key="function.digit-to-hour.map.uchar-000032.str-hour-2" />
+<entry key="function.digit-to-hour.map.uchar-000033.str-hour-3" />
+<entry key="function.digit-to-hour.map.uchar-000034.str-hour-4" />
+<entry key="function.digit-to-hour.map.uchar-000035.str-hour-5" />
+<entry key="function.digit-to-hour.map.uchar-000036.str-hour-6" />
+<entry key="function.digit-to-hour.map.uchar-000037.str-hour-7" />
+<entry key="function.digit-to-hour.map.uchar-000038.str-hour-8" />
+<entry key="function.digit-to-hour.map.uchar-000039.str-hour-9" />
+
+<entry key="function.hour-to-digit.label.en_US" >hour to digit</entry>
+<entry key="function.hour-to-digit.comment.en_US" >hour to digit</entry>
+<entry key="function.hour-to-digit.label.de" >Uhrzeiten zu Ziffern</entry>
+<entry key="function.hour-to-digit.comment.de" >Uhrzeiten zu Ziffern</entry>
+<entry key="function.hour-to-digit.map.str-hour-1.uchar-000031" />
+<entry key="function.hour-to-digit.map.str-hour-2.uchar-000032" />
+<entry key="function.hour-to-digit.map.str-hour-3.uchar-000033" />
+<entry key="function.hour-to-digit.map.str-hour-4.uchar-000034" />
+<entry key="function.hour-to-digit.map.str-hour-5.uchar-000035" />
+<entry key="function.hour-to-digit.map.str-hour-6.uchar-000036" />
+<entry key="function.hour-to-digit.map.str-hour-7.uchar-000037" />
+<entry key="function.hour-to-digit.map.str-hour-8.uchar-000038" />
+<entry key="function.hour-to-digit.map.str-hour-9.uchar-000039" />
+
+<!-- Object Sets (e.g. a set of symbols with unambigous labels for
+     well-defined identification of symbols when labels are typed onto
+     a notice pad) -->
+
+<entry key="set.notice-pad-symbol.uchar-000023" />
+<entry key="set.notice-pad-symbol.uchar-000027" />
+<entry key="set.notice-pad-symbol.uchar-00002a" />
+<entry key="set.notice-pad-symbol.uchar-00002b" />
+<entry key="set.notice-pad-symbol.uchar-00002c" />
+<entry key="set.notice-pad-symbol.uchar-00002d" />
+<entry key="set.notice-pad-symbol.uchar-00002e" />
+<entry key="set.notice-pad-symbol.uchar-00002f" />
+<entry key="set.notice-pad-symbol.uchar-000030" />
+<entry key="set.notice-pad-symbol.uchar-000031" />
+<entry key="set.notice-pad-symbol.uchar-000032" />
+<entry key="set.notice-pad-symbol.uchar-000033" />
+<entry key="set.notice-pad-symbol.uchar-000034" />
+<entry key="set.notice-pad-symbol.uchar-000035" />
+<entry key="set.notice-pad-symbol.uchar-000036" />
+<entry key="set.notice-pad-symbol.uchar-000037" />
+<entry key="set.notice-pad-symbol.uchar-000038" />
+<entry key="set.notice-pad-symbol.uchar-000039" />
+<entry key="set.notice-pad-symbol.uchar-000041" />
+<entry key="set.notice-pad-symbol.uchar-000042" />
+<entry key="set.notice-pad-symbol.uchar-000043" />
+<entry key="set.notice-pad-symbol.uchar-000044" />
+<entry key="set.notice-pad-symbol.uchar-000045" />
+<entry key="set.notice-pad-symbol.uchar-000046" />
+<entry key="set.notice-pad-symbol.uchar-000047" />
+<entry key="set.notice-pad-symbol.uchar-000048" />
+<entry key="set.notice-pad-symbol.uchar-000049" />
+<entry key="set.notice-pad-symbol.uchar-00004a" />
+<entry key="set.notice-pad-symbol.uchar-00004b" />
+<entry key="set.notice-pad-symbol.uchar-00004c" />
+<entry key="set.notice-pad-symbol.uchar-00004d" />
+<entry key="set.notice-pad-symbol.uchar-00004e" />
+<entry key="set.notice-pad-symbol.uchar-00004f" />
+<entry key="set.notice-pad-symbol.uchar-000050" />
+<entry key="set.notice-pad-symbol.uchar-000051" />
+<entry key="set.notice-pad-symbol.uchar-000052" />
+<entry key="set.notice-pad-symbol.uchar-000053" />
+<entry key="set.notice-pad-symbol.uchar-000054" />
+<entry key="set.notice-pad-symbol.uchar-000055" />
+<entry key="set.notice-pad-symbol.uchar-000056" />
+<entry key="set.notice-pad-symbol.uchar-000057" />
+<entry key="set.notice-pad-symbol.uchar-000058" />
+<entry key="set.notice-pad-symbol.uchar-000059" />
+<entry key="set.notice-pad-symbol.uchar-00005a" />
+<entry key="set.notice-pad-symbol.uchar-000061" />
+<entry key="set.notice-pad-symbol.uchar-000062" />
+<entry key="set.notice-pad-symbol.uchar-000063" />
+<entry key="set.notice-pad-symbol.uchar-000064" />
+<entry key="set.notice-pad-symbol.uchar-000065" />
+<entry key="set.notice-pad-symbol.uchar-000066" />
+<entry key="set.notice-pad-symbol.uchar-000067" />
+<entry key="set.notice-pad-symbol.uchar-000068" />
+<entry key="set.notice-pad-symbol.uchar-000069" />
+<entry key="set.notice-pad-symbol.uchar-00006a" />
+<entry key="set.notice-pad-symbol.uchar-00006b" />
+<entry key="set.notice-pad-symbol.uchar-00006c" />
+<entry key="set.notice-pad-symbol.uchar-00006d" />
+<entry key="set.notice-pad-symbol.uchar-00006e" />
+<entry key="set.notice-pad-symbol.uchar-00006f" />
+<entry key="set.notice-pad-symbol.uchar-000070" />
+<entry key="set.notice-pad-symbol.uchar-000071" />
+<entry key="set.notice-pad-symbol.uchar-000072" />
+<entry key="set.notice-pad-symbol.uchar-000073" />
+<entry key="set.notice-pad-symbol.uchar-000074" />
+<entry key="set.notice-pad-symbol.uchar-000075" />
+<entry key="set.notice-pad-symbol.uchar-000076" />
+<entry key="set.notice-pad-symbol.uchar-000077" />
+<entry key="set.notice-pad-symbol.uchar-000078" />
+<entry key="set.notice-pad-symbol.uchar-000079" />
+<entry key="set.notice-pad-symbol.uchar-00007a" />
+<entry key="set.notice-pad-symbol.uchar-0000c4" />
+<entry key="set.notice-pad-symbol.uchar-0000d6" />
+<entry key="set.notice-pad-symbol.uchar-0000dc" />
+<entry key="set.notice-pad-symbol.uchar-0000df" />
+<entry key="set.notice-pad-symbol.uchar-0000e4" />
+<entry key="set.notice-pad-symbol.uchar-0000f6" />
+<entry key="set.notice-pad-symbol.uchar-0000fc" />
+<entry key="set.notice-pad-symbol.uchar-000186" />
+<entry key="set.notice-pad-symbol.uchar-002386" />
+<entry key="set.notice-pad-symbol.uchar-0023ce" />
+
+<!-- Object labels and descriptions: -->
+
+<entry key="object.uchar-000023.label.en_US">#</entry>
+<entry key="object.uchar-000023.comment.en_US">Hash Sign</entry>
+<entry key="object.uchar-000023.comment.de">Raute</entry>
+<entry key="object.uchar-000023.color">#000000</entry>
+<entry key="object.uchar-000027.label.en_US">'</entry>
+<entry key="object.uchar-000027.comment.en_US">Single Quote</entry>
+<entry key="object.uchar-000027.comment.de">Apostroph</entry>
+<entry key="object.uchar-000027.color">#000000</entry>
+<entry key="object.uchar-00002a.label.en_US">*</entry>
+<entry key="object.uchar-00002a.comment.en_US">Star</entry>
+<entry key="object.uchar-00002a.comment.de">Stern</entry>
+<entry key="object.uchar-00002a.color">#000000</entry>
+<entry key="object.uchar-00002b.label.en_US">+</entry>
+<entry key="object.uchar-00002b.comment.en_US">Plus Sign</entry>
+<entry key="object.uchar-00002b.comment.de">Pluszeichen</entry>
+<entry key="object.uchar-00002b.color">#000000</entry>
+<entry key="object.uchar-00002c.label.en_US">,</entry>
+<entry key="object.uchar-00002c.comment.en_US">Comma</entry>
+<entry key="object.uchar-00002c.comment.de">Komma</entry>
+<entry key="object.uchar-00002c.color">#000000</entry>
+<entry key="object.uchar-00002d.label.en_US">-</entry>
+<entry key="object.uchar-00002d.comment.en_US">Minus Sign</entry>
+<entry key="object.uchar-00002d.comment.de">Minuszeichen</entry>
+<entry key="object.uchar-00002d.color">#000000</entry>
+<entry key="object.uchar-00002e.label.en_US">.</entry>
+<entry key="object.uchar-00002e.comment.en_US">Dot</entry>
+<entry key="object.uchar-00002e.comment.de">Punkt</entry>
+<entry key="object.uchar-00002e.color">#000000</entry>
+<entry key="object.uchar-00002f.label.en_US">/</entry>
+<entry key="object.uchar-00002f.comment.en_US">Slash</entry>
+<entry key="object.uchar-00002f.comment.de">Schrägstrich</entry>
+<entry key="object.uchar-00002f.color">#000000</entry>
+<entry key="object.uchar-000030.label.en_US">0</entry>
+<entry key="object.uchar-000030.comment.en_US">Digit “Zero”</entry>
+<entry key="object.uchar-000030.comment.de">Ziffer „Null”</entry>
+<entry key="object.uchar-000030.color">#000000</entry>
+<entry key="object.uchar-000031.label.en_US">1</entry>
+<entry key="object.uchar-000031.comment.en_US">Digit “One”</entry>
+<entry key="object.uchar-000031.comment.de">Ziffer „Eins”</entry>
+<entry key="object.uchar-000031.color">#000000</entry>
+<entry key="object.uchar-000032.label.en_US">2</entry>
+<entry key="object.uchar-000032.comment.en_US">Digit “Two”</entry>
+<entry key="object.uchar-000032.comment.de">Ziffer „Zwei”</entry>
+<entry key="object.uchar-000032.color">#000000</entry>
+<entry key="object.uchar-000033.label.en_US">3</entry>
+<entry key="object.uchar-000033.comment.en_US">Digit “Three”</entry>
+<entry key="object.uchar-000033.comment.de">Ziffer „Drei”</entry>
+<entry key="object.uchar-000033.color">#000000</entry>
+<entry key="object.uchar-000034.label.en_US">4</entry>
+<entry key="object.uchar-000034.comment.en_US">Digit “Four”</entry>
+<entry key="object.uchar-000034.comment.de">Ziffer „Vier”</entry>
+<entry key="object.uchar-000034.color">#000000</entry>
+<entry key="object.uchar-000035.label.en_US">5</entry>
+<entry key="object.uchar-000035.comment.en_US">Digit “Five”</entry>
+<entry key="object.uchar-000035.comment.de">Ziffer „Fünf”</entry>
+<entry key="object.uchar-000035.color">#000000</entry>
+<entry key="object.uchar-000036.label.en_US">6</entry>
+<entry key="object.uchar-000036.comment.en_US">Digit “Six”</entry>
+<entry key="object.uchar-000036.comment.de">Ziffer „Sechs”</entry>
+<entry key="object.uchar-000036.color">#000000</entry>
+<entry key="object.uchar-000037.label.en_US">7</entry>
+<entry key="object.uchar-000037.comment.en_US">Digit “Seven”</entry>
+<entry key="object.uchar-000037.comment.de">Ziffer „Sieben”</entry>
+<entry key="object.uchar-000037.color">#000000</entry>
+<entry key="object.uchar-000038.label.en_US">8</entry>
+<entry key="object.uchar-000038.comment.en_US">Digit “Eight”</entry>
+<entry key="object.uchar-000038.comment.de">Ziffer „Acht”</entry>
+<entry key="object.uchar-000038.color">#000000</entry>
+<entry key="object.uchar-000039.label.en_US">9</entry>
+<entry key="object.uchar-000039.comment.en_US">Digit “Nine”</entry>
+<entry key="object.uchar-000039.comment.de">Ziffer „Neun”</entry>
+<entry key="object.uchar-000039.color">#000000</entry>
+<entry key="object.uchar-000041.label.en_US">A</entry>
+<entry key="object.uchar-000041.comment.en_US">Capital Letter “A”</entry>
+<entry key="object.uchar-000041.comment.de">Großbuchstabe „A”</entry>
+<entry key="object.uchar-000041.color">#000000</entry>
+<entry key="object.uchar-000042.label.en_US">B</entry>
+<entry key="object.uchar-000042.comment.en_US">Capital Letter “B”</entry>
+<entry key="object.uchar-000042.comment.de">Großbuchstabe „B”</entry>
+<entry key="object.uchar-000042.color">#000000</entry>
+<entry key="object.uchar-000043.label.en_US">C</entry>
+<entry key="object.uchar-000043.comment.en_US">Capital Letter “C”</entry>
+<entry key="object.uchar-000043.comment.de">Großbuchstabe „C”</entry>
+<entry key="object.uchar-000043.color">#000000</entry>
+<entry key="object.uchar-000044.label.en_US">D</entry>
+<entry key="object.uchar-000044.comment.en_US">Capital Letter “D”</entry>
+<entry key="object.uchar-000044.comment.de">Großbuchstabe „D”</entry>
+<entry key="object.uchar-000044.color">#000000</entry>
+<entry key="object.uchar-000045.label.en_US">E</entry>
+<entry key="object.uchar-000045.comment.en_US">Capital Letter “E”</entry>
+<entry key="object.uchar-000045.comment.de">Großbuchstabe „E”</entry>
+<entry key="object.uchar-000045.color">#000000</entry>
+<entry key="object.uchar-000046.label.en_US">F</entry>
+<entry key="object.uchar-000046.comment.en_US">Capital Letter “F”</entry>
+<entry key="object.uchar-000046.comment.de">Großbuchstabe „F”</entry>
+<entry key="object.uchar-000046.color">#000000</entry>
+<entry key="object.uchar-000047.label.en_US">G</entry>
+<entry key="object.uchar-000047.comment.en_US">Capital Letter “G”</entry>
+<entry key="object.uchar-000047.comment.de">Großbuchstabe „G”</entry>
+<entry key="object.uchar-000047.color">#000000</entry>
+<entry key="object.uchar-000048.label.en_US">H</entry>
+<entry key="object.uchar-000048.comment.en_US">Capital Letter “H”</entry>
+<entry key="object.uchar-000048.comment.de">Großbuchstabe „H”</entry>
+<entry key="object.uchar-000048.color">#000000</entry>
+<entry key="object.uchar-000049.label.en_US">I</entry>
+<entry key="object.uchar-000049.comment.en_US">Capital Letter “I”</entry>
+<entry key="object.uchar-000049.comment.de">Großbuchstabe „I”</entry>
+<entry key="object.uchar-000049.color">#000000</entry>
+<entry key="object.uchar-00004a.label.en_US">J</entry>
+<entry key="object.uchar-00004a.comment.en_US">Capital Letter “J”</entry>
+<entry key="object.uchar-00004a.comment.de">Großbuchstabe „J”</entry>
+<entry key="object.uchar-00004a.color">#000000</entry>
+<entry key="object.uchar-00004b.label.en_US">K</entry>
+<entry key="object.uchar-00004b.comment.en_US">Capital Letter “K”</entry>
+<entry key="object.uchar-00004b.comment.de">Großbuchstabe „K”</entry>
+<entry key="object.uchar-00004b.color">#000000</entry>
+<entry key="object.uchar-00004c.label.en_US">L</entry>
+<entry key="object.uchar-00004c.comment.en_US">Capital Letter “L”</entry>
+<entry key="object.uchar-00004c.comment.de">Großbuchstabe „L”</entry>
+<entry key="object.uchar-00004c.color">#000000</entry>
+<entry key="object.uchar-00004d.label.en_US">M</entry>
+<entry key="object.uchar-00004d.comment.en_US">Capital Letter “M”</entry>
+<entry key="object.uchar-00004d.comment.de">Großbuchstabe „M”</entry>
+<entry key="object.uchar-00004d.color">#000000</entry>
+<entry key="object.uchar-00004e.label.en_US">N</entry>
+<entry key="object.uchar-00004e.comment.en_US">Capital Letter “N”</entry>
+<entry key="object.uchar-00004e.comment.de">Großbuchstabe „N”</entry>
+<entry key="object.uchar-00004e.color">#000000</entry>
+<entry key="object.uchar-00004f.label.en_US">O</entry>
+<entry key="object.uchar-00004f.comment.en_US">Capital Letter “O”</entry>
+<entry key="object.uchar-00004f.comment.de">Großbuchstabe „O”</entry>
+<entry key="object.uchar-00004f.color">#000000</entry>
+<entry key="object.uchar-000050.label.en_US">P</entry>
+<entry key="object.uchar-000050.comment.en_US">Capital Letter “P”</entry>
+<entry key="object.uchar-000050.comment.de">Großbuchstabe „P”</entry>
+<entry key="object.uchar-000050.color">#000000</entry>
+<entry key="object.uchar-000051.label.en_US">Q</entry>
+<entry key="object.uchar-000051.comment.en_US">Capital Letter “Q”</entry>
+<entry key="object.uchar-000051.comment.de">Großbuchstabe „Q”</entry>
+<entry key="object.uchar-000051.color">#000000</entry>
+<entry key="object.uchar-000052.label.en_US">R</entry>
+<entry key="object.uchar-000052.comment.en_US">Capital Letter “R”</entry>
+<entry key="object.uchar-000052.comment.de">Großbuchstabe „R”</entry>
+<entry key="object.uchar-000052.color">#000000</entry>
+<entry key="object.uchar-000053.label.en_US">S</entry>
+<entry key="object.uchar-000053.comment.en_US">Capital Letter “S”</entry>
+<entry key="object.uchar-000053.comment.de">Großbuchstabe „S”</entry>
+<entry key="object.uchar-000053.color">#000000</entry>
+<entry key="object.uchar-000054.label.en_US">T</entry>
+<entry key="object.uchar-000054.comment.en_US">Capital Letter “T”</entry>
+<entry key="object.uchar-000054.comment.de">Großbuchstabe „T”</entry>
+<entry key="object.uchar-000054.color">#000000</entry>
+<entry key="object.uchar-000055.label.en_US">U</entry>
+<entry key="object.uchar-000055.comment.en_US">Capital Letter “U”</entry>
+<entry key="object.uchar-000055.comment.de">Großbuchstabe „U”</entry>
+<entry key="object.uchar-000055.color">#000000</entry>
+<entry key="object.uchar-000056.label.en_US">V</entry>
+<entry key="object.uchar-000056.comment.en_US">Capital Letter “V”</entry>
+<entry key="object.uchar-000056.comment.de">Großbuchstabe „V”</entry>
+<entry key="object.uchar-000056.color">#000000</entry>
+<entry key="object.uchar-000057.label.en_US">W</entry>
+<entry key="object.uchar-000057.comment.en_US">Capital Letter “W”</entry>
+<entry key="object.uchar-000057.comment.de">Großbuchstabe „W”</entry>
+<entry key="object.uchar-000057.color">#000000</entry>
+<entry key="object.uchar-000058.label.en_US">X</entry>
+<entry key="object.uchar-000058.comment.en_US">Capital Letter “X”</entry>
+<entry key="object.uchar-000058.comment.de">Großbuchstabe „X”</entry>
+<entry key="object.uchar-000058.color">#000000</entry>
+<entry key="object.uchar-000059.label.en_US">Y</entry>
+<entry key="object.uchar-000059.comment.en_US">Capital Letter “Y”</entry>
+<entry key="object.uchar-000059.comment.de">Großbuchstabe „Y”</entry>
+<entry key="object.uchar-000059.color">#000000</entry>
+<entry key="object.uchar-00005a.label.en_US">Z</entry>
+<entry key="object.uchar-00005a.comment.en_US">Capital Letter “Z”</entry>
+<entry key="object.uchar-00005a.comment.de">Großbuchstabe „Z”</entry>
+<entry key="object.uchar-00005a.color">#000000</entry>
+<entry key="object.uchar-000061.label.en_US">a</entry>
+<entry key="object.uchar-000061.comment.en_US">Small Letter “a”</entry>
+<entry key="object.uchar-000061.comment.de">Kleinbuchstabe „a”</entry>
+<entry key="object.uchar-000061.color">#000000</entry>
+<entry key="object.uchar-000062.label.en_US">b</entry>
+<entry key="object.uchar-000062.comment.en_US">Small Letter “b”</entry>
+<entry key="object.uchar-000062.comment.de">Kleinbuchstabe „b”</entry>
+<entry key="object.uchar-000062.color">#000000</entry>
+<entry key="object.uchar-000063.label.en_US">c</entry>
+<entry key="object.uchar-000063.comment.en_US">Small Letter “c”</entry>
+<entry key="object.uchar-000063.comment.de">Kleinbuchstabe „c”</entry>
+<entry key="object.uchar-000063.color">#000000</entry>
+<entry key="object.uchar-000064.label.en_US">d</entry>
+<entry key="object.uchar-000064.comment.en_US">Small Letter “d”</entry>
+<entry key="object.uchar-000064.comment.de">Kleinbuchstabe „d”</entry>
+<entry key="object.uchar-000064.color">#000000</entry>
+<entry key="object.uchar-000065.label.en_US">e</entry>
+<entry key="object.uchar-000065.comment.en_US">Small Letter “e”</entry>
+<entry key="object.uchar-000065.comment.de">Kleinbuchstabe „e”</entry>
+<entry key="object.uchar-000065.color">#000000</entry>
+<entry key="object.uchar-000066.label.en_US">f</entry>
+<entry key="object.uchar-000066.comment.en_US">Small Letter “f”</entry>
+<entry key="object.uchar-000066.comment.de">Kleinbuchstabe „f”</entry>
+<entry key="object.uchar-000066.color">#000000</entry>
+<entry key="object.uchar-000067.label.en_US">g</entry>
+<entry key="object.uchar-000067.comment.en_US">Small Letter “g”</entry>
+<entry key="object.uchar-000067.comment.de">Kleinbuchstabe „g”</entry>
+<entry key="object.uchar-000067.color">#000000</entry>
+<entry key="object.uchar-000068.label.en_US">h</entry>
+<entry key="object.uchar-000068.comment.en_US">Small Letter “h”</entry>
+<entry key="object.uchar-000068.comment.de">Kleinbuchstabe „h”</entry>
+<entry key="object.uchar-000068.color">#000000</entry>
+<entry key="object.uchar-000069.label.en_US">i</entry>
+<entry key="object.uchar-000069.comment.en_US">Small Letter “i”</entry>
+<entry key="object.uchar-000069.comment.de">Kleinbuchstabe „i”</entry>
+<entry key="object.uchar-000069.color">#000000</entry>
+<entry key="object.uchar-00006a.label.en_US">j</entry>
+<entry key="object.uchar-00006a.comment.en_US">Small Letter “j”</entry>
+<entry key="object.uchar-00006a.comment.de">Kleinbuchstabe „j”</entry>
+<entry key="object.uchar-00006a.color">#000000</entry>
+<entry key="object.uchar-00006b.label.en_US">k</entry>
+<entry key="object.uchar-00006b.comment.en_US">Small Letter “k”</entry>
+<entry key="object.uchar-00006b.comment.de">Kleinbuchstabe „k”</entry>
+<entry key="object.uchar-00006b.color">#000000</entry>
+<entry key="object.uchar-00006c.label.en_US">l</entry>
+<entry key="object.uchar-00006c.comment.en_US">Small Letter “l”</entry>
+<entry key="object.uchar-00006c.comment.de">Kleinbuchstabe „l”</entry>
+<entry key="object.uchar-00006c.color">#000000</entry>
+<entry key="object.uchar-00006d.label.en_US">m</entry>
+<entry key="object.uchar-00006d.comment.en_US">Small Letter “m”</entry>
+<entry key="object.uchar-00006d.comment.de">Kleinbuchstabe „m”</entry>
+<entry key="object.uchar-00006d.color">#000000</entry>
+<entry key="object.uchar-00006e.label.en_US">n</entry>
+<entry key="object.uchar-00006e.comment.en_US">Small Letter “n”</entry>
+<entry key="object.uchar-00006e.comment.de">Kleinbuchstabe „n”</entry>
+<entry key="object.uchar-00006e.color">#000000</entry>
+<entry key="object.uchar-00006f.label.en_US">o</entry>
+<entry key="object.uchar-00006f.comment.en_US">Small Letter “o”</entry>
+<entry key="object.uchar-00006f.comment.de">Kleinbuchstabe „o”</entry>
+<entry key="object.uchar-00006f.color">#000000</entry>
+<entry key="object.uchar-000070.label.en_US">p</entry>
+<entry key="object.uchar-000070.comment.en_US">Small Letter “p”</entry>
+<entry key="object.uchar-000070.comment.de">Kleinbuchstabe „p”</entry>
+<entry key="object.uchar-000070.color">#000000</entry>
+<entry key="object.uchar-000071.label.en_US">q</entry>
+<entry key="object.uchar-000071.comment.en_US">Small Letter “q”</entry>
+<entry key="object.uchar-000071.comment.de">Kleinbuchstabe „q”</entry>
+<entry key="object.uchar-000071.color">#000000</entry>
+<entry key="object.uchar-000072.label.en_US">r</entry>
+<entry key="object.uchar-000072.comment.en_US">Small Letter “r”</entry>
+<entry key="object.uchar-000072.comment.de">Kleinbuchstabe „r”</entry>
+<entry key="object.uchar-000072.color">#000000</entry>
+<entry key="object.uchar-000073.label.en_US">s</entry>
+<entry key="object.uchar-000073.comment.en_US">Small Letter “s”</entry>
+<entry key="object.uchar-000073.comment.de">Kleinbuchstabe „s”</entry>
+<entry key="object.uchar-000073.color">#000000</entry>
+<entry key="object.uchar-000074.label.en_US">t</entry>
+<entry key="object.uchar-000074.comment.en_US">Small Letter “t”</entry>
+<entry key="object.uchar-000074.comment.de">Kleinbuchstabe „t”</entry>
+<entry key="object.uchar-000074.color">#000000</entry>
+<entry key="object.uchar-000075.label.en_US">u</entry>
+<entry key="object.uchar-000075.comment.en_US">Small Letter “u”</entry>
+<entry key="object.uchar-000075.comment.de">Kleinbuchstabe „u”</entry>
+<entry key="object.uchar-000075.color">#000000</entry>
+<entry key="object.uchar-000076.label.en_US">v</entry>
+<entry key="object.uchar-000076.comment.en_US">Small Letter “v”</entry>
+<entry key="object.uchar-000076.comment.de">Kleinbuchstabe „v”</entry>
+<entry key="object.uchar-000076.color">#000000</entry>
+<entry key="object.uchar-000077.label.en_US">w</entry>
+<entry key="object.uchar-000077.comment.en_US">Small Letter “w”</entry>
+<entry key="object.uchar-000077.comment.de">Kleinbuchstabe „w”</entry>
+<entry key="object.uchar-000077.color">#000000</entry>
+<entry key="object.uchar-000078.label.en_US">x</entry>
+<entry key="object.uchar-000078.comment.en_US">Small Letter “x”</entry>
+<entry key="object.uchar-000078.comment.de">Kleinbuchstabe „x”</entry>
+<entry key="object.uchar-000078.color">#000000</entry>
+<entry key="object.uchar-000079.label.en_US">y</entry>
+<entry key="object.uchar-000079.comment.en_US">Small Letter “y”</entry>
+<entry key="object.uchar-000079.comment.de">Kleinbuchstabe „y”</entry>
+<entry key="object.uchar-000079.color">#000000</entry>
+<entry key="object.uchar-00007a.label.en_US">z</entry>
+<entry key="object.uchar-00007a.comment.en_US">Small Letter “z”</entry>
+<entry key="object.uchar-00007a.comment.de">Kleinbuchstabe „z”</entry>
+<entry key="object.uchar-00007a.color">#000000</entry>
+<entry key="object.uchar-0000c4.label.en_US">Ä</entry>
+<entry key="object.uchar-0000c4.comment.en_US">Capital Letter “Ä”</entry>
+<entry key="object.uchar-0000c4.comment.de">Großbuchstabe „Ä”</entry>
+<entry key="object.uchar-0000c4.color">#000000</entry>
+<entry key="object.uchar-0000d6.label.en_US">Ö</entry>
+<entry key="object.uchar-0000d6.comment.en_US">Capital Letter “Ö”</entry>
+<entry key="object.uchar-0000d6.comment.de">Großbuchstabe „Ö”</entry>
+<entry key="object.uchar-0000d6.color">#000000</entry>
+<entry key="object.uchar-0000dc.label.en_US">Ü</entry>
+<entry key="object.uchar-0000dc.comment.en_US">Capital Letter “Ü”</entry>
+<entry key="object.uchar-0000dc.comment.de">Großbuchstabe „Ü”</entry>
+<entry key="object.uchar-0000dc.color">#000000</entry>
+<entry key="object.uchar-0000df.label.en_US">ß</entry>
+<entry key="object.uchar-0000df.comment.en_US">Small Letter “ß”</entry>
+<entry key="object.uchar-0000df.comment.de">Kleinbuchstabe „ß”</entry>
+<entry key="object.uchar-0000df.color">#000000</entry>
+<entry key="object.uchar-0000e4.label.en_US">ä</entry>
+<entry key="object.uchar-0000e4.comment.en_US">Small Letter “ä”</entry>
+<entry key="object.uchar-0000e4.comment.de">Kleinbuchstabe „ä”</entry>
+<entry key="object.uchar-0000e4.color">#000000</entry>
+<entry key="object.uchar-0000f6.label.en_US">ö</entry>
+<entry key="object.uchar-0000f6.comment.en_US">Small Letter “ö”</entry>
+<entry key="object.uchar-0000f6.comment.de">Kleinbuchstabe „ö”</entry>
+<entry key="object.uchar-0000f6.color">#000000</entry>
+<entry key="object.uchar-0000fc.label.en_US">ü</entry>
+<entry key="object.uchar-0000fc.comment.en_US">Small Letter “ü”</entry>
+<entry key="object.uchar-0000fc.comment.de">Kleinbuchstabe „ü”</entry>
+<entry key="object.uchar-0000fc.color">#000000</entry>
+<entry key="object.uchar-000186.label.en_US">&#390;</entry>
+<entry key="object.uchar-000186.comment.en_US">Phonetic “o” as in “often”</entry>
+<entry key="object.uchar-000186.comment.de">Offenes „o” wie in „offen”</entry>
+<entry key="object.uchar-000186.color">#000000</entry>
+<entry key="object.uchar-002386.label.en_US">&#9094;</entry>
+<entry key="object.uchar-002386.comment.en_US">Digital Phone Enter Key</entry>
+<entry key="object.uchar-002386.comment.de">Digitaltelefon-Programmiertaste</entry>
+<entry key="object.uchar-002386.color">#000000</entry>
+<entry key="object.uchar-0023ce.label.en_US">&#9166;</entry>
+<entry key="object.uchar-0023ce.comment.en_US">Symbol “Enter”</entry>
+<entry key="object.uchar-0023ce.comment.de">Symbol „Eingabe”</entry>
+<entry key="object.uchar-0023ce.color">#000000</entry>
+<entry key="object.str-capital-szlig.label.en_US">SS</entry>
+<entry key="object.str-capital-szlig.comment.en_US">Capital Letter “ß”</entry>
+<entry key="object.str-capital-szlig.comment.de">Großbuchstabe „ß”</entry>
+<entry key="object.str-capital-szlig.color">#000000</entry>
+<entry key="object.str-dayofweek-monday.label.en_US">Monday</entry>
+<entry key="object.str-dayofweek-monday.label.de">Montag</entry>
+<entry key="object.str-dayofweek-monday.comment.en_US">Day of Week “Monday”</entry>
+<entry key="object.str-dayofweek-monday.comment.de">Wochentag „Montag”</entry>
+<entry key="object.str-dayofweek-monday.color">#000000</entry>
+<entry key="object.str-dayofweek-tuesday.label.en_US">Tuesday</entry>
+<entry key="object.str-dayofweek-tuesday.label.de">Dienstag</entry>
+<entry key="object.str-dayofweek-tuesday.comment.en_US">Day of Week “Tuesday”</entry>
+<entry key="object.str-dayofweek-tuesday.comment.de">Wochentag „Dienstag”</entry>
+<entry key="object.str-dayofweek-tuesday.color">#000000</entry>
+<entry key="object.str-dayofweek-wednesday.label.en_US">Wednesday</entry>
+<entry key="object.str-dayofweek-wednesday.label.de">Mittwoch</entry>
+<entry key="object.str-dayofweek-wednesday.comment.en_US">Day of Week “Wednesday”</entry>
+<entry key="object.str-dayofweek-wednesday.comment.de">Wochentag „Mittwoch”</entry>
+<entry key="object.str-dayofweek-wednesday.color">#000000</entry>
+<entry key="object.str-dayofweek-thirsday.label.en_US">Thursday</entry>
+<entry key="object.str-dayofweek-thirsday.label.de">Donnerstag</entry>
+<entry key="object.str-dayofweek-thirsday.comment.en_US">Day of Week “Thursday”</entry>
+<entry key="object.str-dayofweek-thirsday.comment.de">Wochentag „Donnerstag”</entry>
+<entry key="object.str-dayofweek-thirsday.color">#000000</entry>
+<entry key="object.str-dayofweek-friday.label.en_US">Friday</entry>
+<entry key="object.str-dayofweek-friday.label.de">Freitag</entry>
+<entry key="object.str-dayofweek-friday.comment.en_US">Day of Week “Friday”</entry>
+<entry key="object.str-dayofweek-friday.comment.de">Wochentag „Freitag”</entry>
+<entry key="object.str-dayofweek-friday.color">#000000</entry>
+<entry key="object.str-dayofweek-saturday.label.en_US">Saturday</entry>
+<entry key="object.str-dayofweek-saturday.label.de">Samstag</entry>
+<entry key="object.str-dayofweek-saturday.comment.en_US">Day of Week “Saturday”</entry>
+<entry key="object.str-dayofweek-saturday.comment.de">Wochentag „Samstag”</entry>
+<entry key="object.str-dayofweek-saturday.color">#000000</entry>
+<entry key="object.str-dayofweek-sunday.label.en_US">Sunday</entry>
+<entry key="object.str-dayofweek-sunday.label.de">Sonntag</entry>
+<entry key="object.str-dayofweek-sunday.comment.en_US">Day of Week “Sunday”</entry>
+<entry key="object.str-dayofweek-sunday.comment.de">Wochentag „Sonntag”</entry>
+<entry key="object.str-dayofweek-sunday.color">#000000</entry>
+<entry key="object.str-month-january.label.en_US">January</entry>
+<entry key="object.str-month-january.label.de">Januar</entry>
+<entry key="object.str-month-january.comment.en_US">Month “January”</entry>
+<entry key="object.str-month-january.comment.de">Monat „Januar”</entry>
+<entry key="object.str-month-january.color">#000000</entry>
+<entry key="object.str-month-february.label.en_US">February</entry>
+<entry key="object.str-month-february.label.de">Februar</entry>
+<entry key="object.str-month-february.comment.en_US">Month “February”</entry>
+<entry key="object.str-month-february.comment.de">Monat „Februar”</entry>
+<entry key="object.str-month-february.color">#000000</entry>
+<entry key="object.str-month-march.label.en_US">March</entry>
+<entry key="object.str-month-march.label.de">März</entry>
+<entry key="object.str-month-march.comment.en_US">Month “March”</entry>
+<entry key="object.str-month-march.comment.de">Monat „März”</entry>
+<entry key="object.str-month-march.color">#000000</entry>
+<entry key="object.str-month-april.label.en_US">April</entry>
+<entry key="object.str-month-april.label.de">April</entry>
+<entry key="object.str-month-april.comment.en_US">Month “April”</entry>
+<entry key="object.str-month-april.comment.de">Monat „April”</entry>
+<entry key="object.str-month-april.color">#000000</entry>
+<entry key="object.str-month-may.label.en_US">May</entry>
+<entry key="object.str-month-may.label.de">Mai</entry>
+<entry key="object.str-month-may.comment.en_US">Month “May”</entry>
+<entry key="object.str-month-may.comment.de">Monat „Mai”</entry>
+<entry key="object.str-month-may.color">#000000</entry>
+<entry key="object.str-month-june.label.en_US">June</entry>
+<entry key="object.str-month-june.label.de">Juni</entry>
+<entry key="object.str-month-june.comment.en_US">Month “June”</entry>
+<entry key="object.str-month-june.comment.de">Monat „Juni”</entry>
+<entry key="object.str-month-june.color">#000000</entry>
+<entry key="object.str-month-july.label.en_US">July</entry>
+<entry key="object.str-month-july.label.de">Juli</entry>
+<entry key="object.str-month-july.comment.en_US">Month “July”</entry>
+<entry key="object.str-month-july.comment.de">Monat „Juli”</entry>
+<entry key="object.str-month-july.color">#000000</entry>
+<entry key="object.str-month-august.label.en_US">August</entry>
+<entry key="object.str-month-august.label.de">August</entry>
+<entry key="object.str-month-august.comment.en_US">Month “August”</entry>
+<entry key="object.str-month-august.comment.de">Monat „August”</entry>
+<entry key="object.str-month-august.color">#000000</entry>
+<entry key="object.str-month-september.label.en_US">September</entry>
+<entry key="object.str-month-september.label.de">September</entry>
+<entry key="object.str-month-september.comment.en_US">Month “September”</entry>
+<entry key="object.str-month-september.comment.de">Monat „September”</entry>
+<entry key="object.str-month-september.color">#000000</entry>
+<entry key="object.str-month-october.label.en_US">October</entry>
+<entry key="object.str-month-october.label.de">Oktober</entry>
+<entry key="object.str-month-october.comment.en_US">Month “October”</entry>
+<entry key="object.str-month-october.comment.de">Monat „Oktober”</entry>
+<entry key="object.str-month-october.color">#000000</entry>
+<entry key="object.str-month-november.label.en_US">November</entry>
+<entry key="object.str-month-november.label.de">November</entry>
+<entry key="object.str-month-november.comment.en_US">Month “November”</entry>
+<entry key="object.str-month-november.comment.de">Monat „November”</entry>
+<entry key="object.str-month-november.color">#000000</entry>
+<entry key="object.str-month-december.label.en_US">December</entry>
+<entry key="object.str-month-december.label.de">Dezember</entry>
+<entry key="object.str-month-december.comment.en_US">Month “December”</entry>
+<entry key="object.str-month-december.comment.de">Monat „Dezember”</entry>
+<entry key="object.str-month-december.color">#000000</entry>
+<entry key="object.str-music-key-C.label.en_US">C</entry>
+<entry key="object.str-music-key-C.label.de">C</entry>
+<entry key="object.str-music-key-C.comment.en_US">Musical Key “C”</entry>
+<entry key="object.str-music-key-C.comment.de">Tonart „C”</entry>
+<entry key="object.str-music-key-C.color">#000000</entry>
+<entry key="object.str-music-key-G.label.en_US">G</entry>
+<entry key="object.str-music-key-G.label.de">G</entry>
+<entry key="object.str-music-key-G.comment.en_US">Musical Key “G”</entry>
+<entry key="object.str-music-key-G.comment.de">Tonart „G”</entry>
+<entry key="object.str-music-key-G.color">#000000</entry>
+<entry key="object.str-music-key-D.label.en_US">D</entry>
+<entry key="object.str-music-key-D.label.de">D</entry>
+<entry key="object.str-music-key-D.comment.en_US">Musical Key “D”</entry>
+<entry key="object.str-music-key-D.comment.de">Tonart „D”</entry>
+<entry key="object.str-music-key-D.color">#000000</entry>
+<entry key="object.str-music-key-A.label.en_US">A</entry>
+<entry key="object.str-music-key-A.label.de">A</entry>
+<entry key="object.str-music-key-A.comment.en_US">Musical Key “A”</entry>
+<entry key="object.str-music-key-A.comment.de">Tonart „A”</entry>
+<entry key="object.str-music-key-A.color">#000000</entry>
+<entry key="object.str-music-key-E.label.en_US">E</entry>
+<entry key="object.str-music-key-E.label.de">E</entry>
+<entry key="object.str-music-key-E.comment.en_US">Musical Key “E”</entry>
+<entry key="object.str-music-key-E.comment.de">Tonart „E”</entry>
+<entry key="object.str-music-key-E.color">#000000</entry>
+<entry key="object.str-music-key-H.label.en_US">B</entry>
+<entry key="object.str-music-key-H.label.de">H</entry>
+<entry key="object.str-music-key-H.comment.en_US">Musical Key “B”</entry>
+<entry key="object.str-music-key-H.comment.de">Tonart „H”</entry>
+<entry key="object.str-music-key-H.color">#000000</entry>
+<entry key="object.str-music-key-Gb.label.en_US">F♯/G♭</entry>
+<entry key="object.str-music-key-Gb.label.de">F♯/G♭</entry>
+<entry key="object.str-music-key-Gb.comment.en_US">Musical Key “F♯/G♭”</entry>
+<entry key="object.str-music-key-Gb.comment.de">Tonart „F♯/G♭”</entry>
+<entry key="object.str-music-key-Gb.color">#000000</entry>
+<entry key="object.str-music-key-Db.label.en_US">D♭</entry>
+<entry key="object.str-music-key-Db.label.de">D♭</entry>
+<entry key="object.str-music-key-Db.comment.en_US">Musical Key “D♭”</entry>
+<entry key="object.str-music-key-Db.comment.de">Tonart „D♭”</entry>
+<entry key="object.str-music-key-Db.color">#000000</entry>
+<entry key="object.str-music-key-Ab.label.en_US">A♭</entry>
+<entry key="object.str-music-key-Ab.label.de">A♭</entry>
+<entry key="object.str-music-key-Ab.comment.en_US">Musical Key “A♭”</entry>
+<entry key="object.str-music-key-Ab.comment.de">Tonart „A♭”</entry>
+<entry key="object.str-music-key-Ab.color">#000000</entry>
+<entry key="object.str-music-key-Eb.label.en_US">E♭</entry>
+<entry key="object.str-music-key-Eb.label.de">E♭</entry>
+<entry key="object.str-music-key-Eb.comment.en_US">Musical Key “E♭”</entry>
+<entry key="object.str-music-key-Eb.comment.de">Tonart „E♭”</entry>
+<entry key="object.str-music-key-Eb.color">#000000</entry>
+<entry key="object.str-music-key-Bb.label.en_US">B♭</entry>
+<entry key="object.str-music-key-Bb.label.de">B♭</entry>
+<entry key="object.str-music-key-Bb.comment.en_US">Musical Key “B♭”</entry>
+<entry key="object.str-music-key-Bb.comment.de">Tonart „B♭”</entry>
+<entry key="object.str-music-key-Bb.color">#000000</entry>
+<entry key="object.str-music-key-F.label.en_US">F</entry>
+<entry key="object.str-music-key-F.label.de">F</entry>
+<entry key="object.str-music-key-F.comment.en_US">Musical Key “F”</entry>
+<entry key="object.str-music-key-F.comment.de">Tonart „F”</entry>
+<entry key="object.str-music-key-F.color">#000000</entry>
+
+<entry key="object.str-hour-1.label.en_US">1</entry>
+<entry key="object.str-hour-1.comment.en_US">One o'Clock</entry>
+<entry key="object.str-hour-1.comment.de">Ein Uhr</entry>
+<entry key="object.str-hour-1.color">#000000</entry>
+<entry key="object.str-hour-2.label.en_US">2</entry>
+<entry key="object.str-hour-2.comment.en_US">Two o'Clock</entry>
+<entry key="object.str-hour-2.comment.de">Zwei Uhr</entry>
+<entry key="object.str-hour-2.color">#000000</entry>
+<entry key="object.str-hour-3.label.en_US">3</entry>
+<entry key="object.str-hour-3.comment.en_US">Three o'Clock</entry>
+<entry key="object.str-hour-3.comment.de">Drei Uhr</entry>
+<entry key="object.str-hour-3.color">#000000</entry>
+<entry key="object.str-hour-4.label.en_US">4</entry>
+<entry key="object.str-hour-4.comment.en_US">Four o'Clock</entry>
+<entry key="object.str-hour-4.comment.de">Vier Uhr</entry>
+<entry key="object.str-hour-4.color">#000000</entry>
+<entry key="object.str-hour-5.label.en_US">5</entry>
+<entry key="object.str-hour-5.comment.en_US">Five o'Clock</entry>
+<entry key="object.str-hour-5.comment.de">Fünf Uhr</entry>
+<entry key="object.str-hour-5.color">#000000</entry>
+<entry key="object.str-hour-6.label.en_US">6</entry>
+<entry key="object.str-hour-6.comment.en_US">Six o'Clock</entry>
+<entry key="object.str-hour-6.comment.de">Sechs Uhr</entry>
+<entry key="object.str-hour-6.color">#000000</entry>
+<entry key="object.str-hour-7.label.en_US">7</entry>
+<entry key="object.str-hour-7.comment.en_US">Seven o'Clock</entry>
+<entry key="object.str-hour-7.comment.de">Sieben Uhr</entry>
+<entry key="object.str-hour-7.color">#000000</entry>
+<entry key="object.str-hour-8.label.en_US">8</entry>
+<entry key="object.str-hour-8.comment.en_US">Eight o'Clock</entry>
+<entry key="object.str-hour-8.comment.de">Acht Uhr</entry>
+<entry key="object.str-hour-8.color">#000000</entry>
+<entry key="object.str-hour-9.label.en_US">9</entry>
+<entry key="object.str-hour-9.comment.en_US">Nine o'Clock</entry>
+<entry key="object.str-hour-9.comment.de">Neun Uhr</entry>
+<entry key="object.str-hour-9.color">#000000</entry>
+<entry key="object.str-hour-10.label.en_US">10</entry>
+<entry key="object.str-hour-10.comment.en_US">Ten o'Clock</entry>
+<entry key="object.str-hour-10.comment.de">Zehn Uhr</entry>
+<entry key="object.str-hour-10.color">#000000</entry>
+<entry key="object.str-hour-11.label.en_US">11</entry>
+<entry key="object.str-hour-11.comment.en_US">Eleven o'Clock</entry>
+<entry key="object.str-hour-11.comment.de">Elf Uhr</entry>
+<entry key="object.str-hour-11.color">#000000</entry>
+<entry key="object.str-hour-12.label.en_US">12</entry>
+<entry key="object.str-hour-12.comment.en_US">Twelve o'Clock</entry>
+<entry key="object.str-hour-12.comment.de">Zwölf Uhr</entry>
+<entry key="object.str-hour-12.color">#000000</entry>
+</properties>
+
+<!--
+    Local Variables:
+    coding:utf-8
+    mode:sgml
+    mode:nXML
+    End:
+-->
