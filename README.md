@@ -60,7 +60,7 @@ Download
 
 If you are a software developer, you probably want to get the latest source code by downloading this repository.
 
-Otherwise, you probably want to directly get the latest precompiled binary (Java .jar file) from [here](/soundpaint/binaries/syngraph-2008-01-04.18-55-36.jar).
+Otherwise, you probably want to directly get the latest precompiled binary (Java .jar file) from [here](https://github.com/soundpaint/binaries/blob/master/syngraph-2008-01-04.18-55-36.jar).
 
 Install and run
 ---------------
