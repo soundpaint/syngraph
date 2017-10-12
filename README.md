@@ -1,7 +1,7 @@
 SynGraph
 ========
 
-SynGraph is a software tool for capturing and visualizing data on symbol-to-color mappings.  It was designed and developed in preparation for a scientific psychological study on graphemic synaesthesia.  So far, I had no opportunity to carry out the study.  I encourage interested researchers to build upon my software tool and work out and carry out a proper psychological study.
+SynGraph is a software tool for capturing and visualizing data on symbol-to-color mappings.  It was designed and developed in preparation for a scientific psychological study on graphemic synaesthesia.  So far, I had no opportunity to carry out the study.  I encourage interested researchers to build upon my software tool and work out and carry out a proper psychological study.  If you do so, I would appreciate if you let me know about your work.
 
 Object of Investigation
 -----------------------
