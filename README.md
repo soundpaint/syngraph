@@ -77,7 +77,6 @@ The following references on synaesthesia may be interesting for the reader.
 | URL | Title |
 | - | - |
 | http://www.synaesthesie.net/ | Internet forum for synaesthetics and synaesthetic researchers |
-| http://www.synaesthesieforum.de/ | Moderated mailing list for synaesthetics and synaesthetic researchers |
 | http://www.synaesthesie.org/ | German society for Synaesthesia, founded in 2006 |
 | http://www.synaesthesie.ch/ | Swiss internet forum with synaesthetic test |
 | http://www.sensequence.de/ | sensequence — a collection of mostly pictured descriptions of individual synaesthetic sensations |
