@@ -8,7 +8,7 @@ Object of Investigation
 
 Synaesthetic phenomena are typically characterized by a mapping of sensory impressions between affected senses.  According to state-of-the-art opinion in research on synaesthesia, there is no intra-individual variability over time in the mapping, while there is inter-individual difference between mappings.  Actually, some researchers assume that the mapping of different synaesthetic individuals may diverge so much that they even can not comprehend each other's mapping.
 
-Synaesthetic individuals often tend to document their mapping of senses, if feasible.  There are many self-made colored drawings of individuals with graphemic synaesthesia that seem to support the hypothesis of inter-individual difference between mappings.  For example, while one individual may percieve the letter A as a red symbol, a different individual may perceive the same letter as green.  Similar observations can be shown for digits.
+Synaesthetic individuals often tend to document their mapping of senses, if feasible.  There are many self-made colored drawings of individuals with graphemic synaesthesia that seem to support the hypothesis of inter-individual difference between mappings.  For example, while one individual may perceive the letter A as a red symbol, a different individual may perceive the same letter as green.  Similar observations can be shown for digits.
 
 However, there are special border cases that seem to fall off from the rule of inter-individual difference.  For example, when asked for the color of digit “0”, most individuals with graphemic synaesthesia tend to respond with the answer “transparent”, even though transparency is not even a color.  Also, there seem to be some accumulations of specific mappings standing out of stastical noise, such as mapping the digit “5” to the color red, though this correlation does not seem to have been statistically proven or otherwise been further investigated.
 
@@ -55,13 +55,28 @@ Current Limitations
 
 Currently, the software supports only few forms of synaesthesia reaching beyond pure character-color mappings. Mappings from character strings to colors are partially supported. The set of missing features most notably contains multi-colored or textured objects; consideration of contextual influence of neighbouring colored objects (e.g. colored letters within a word); and objects beyond characters and strings. The supported set of colors currently is based on the standard RGB color model; transparent or metallic colors are not supported by now.
 
+Download
+--------
+
+If you are a software developer, you probably want to get the latest source code by downloading this repository.
+
+Otherwise, you probably want to directly get the latest precompiled binary (Java .jar file) from [here](../binaries/syngraph-2008-01-04.18-55-36.jar).
+
+
+Install and run
+---------------
+
+For installing, just download the precompiled binary (see above section) and save it on your computer whereever you find it appropriate.
+
+For running the compiled binary (Java .jar file), you need to have a Java Runtime Environment (JRE) installed, at least version 5 (or JDK 1.5 or higher).  Depending upon your operating system, just double-click on the binary to execute it or envoke the Java interpreter with the binary file as argument.
+
 Further Reading
 ---------------
 
 The following references on synaesthesia may be interesting for the reader.
 
 | URL | | Title |
-|| - ||
+| - | - | - |
 | http://www.synaesthesie.net/ | | Internet forum for synaesthetics and synaesthetic researchers |
 | http://www.synaesthesieforum.de/ | | Moderated mailing list for synaesthetics and synaesthetic researchers |
 | http://www.synaesthesie.org/ | | German society for Synaesthesia, founded in 2006 |
